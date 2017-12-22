@@ -1,0 +1,21 @@
+//
+//  XCShareAppDeledateProtocol.h
+//  Pods-XCShareManager_Example
+//
+//  Created by 樊小聪 on 2017/12/22.
+//
+
+#import <Foundation/Foundation.h>
+
+@protocol XCShareAppDeledateProtocol <NSObject>
+
+@required
+- (void)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation;
+
+- (void)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
+
+
+@end

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCShareManager_Example' do
+  pod 'XCShareManager', :path => '../'
+  
+  target 'XCShareManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

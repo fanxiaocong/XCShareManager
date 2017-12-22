@@ -1,0 +1,6 @@
+framework module XCShareManager {
+  umbrella header "XCShareManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

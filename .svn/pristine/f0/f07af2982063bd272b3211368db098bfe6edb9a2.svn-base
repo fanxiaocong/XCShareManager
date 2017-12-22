@@ -1,0 +1,6 @@
+framework module Pods_XCShareManager_Example {
+  umbrella header "Pods-XCShareManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
