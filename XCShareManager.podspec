@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCShareManager'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   
   s.summary          = <<-DESC
   封装分享功能，关于白名单和URLschemes请自行配置。
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
   end
 
 
+  #  友盟分享
   s.subspec 'UMengShare' do |umeng|
       umeng.source_files = 'XCShareManager/Classes/UMengShare/*.{h,m}'
       umeng.dependency  'XCShareManager/XCShareManager'
@@ -62,6 +63,34 @@ Pod::Spec.new do |s|
       else
           # 集成新浪微博(精简版1M)
           umeng.dependency 'UMengUShare/Social/ReducedSina'
+      end
+  end
+  
+  
+  # ShareSDK
+  s.subspec 'MobShare' do |mob|
+      mob.source_files = 'XCShareManager/Classes/MobShare/*.{h,m}'
+      mob.dependency  'XCShareManager/XCShareManager'
+      
+      if ENV['NO_WECHAT']
+          # 不集成微信
+          else
+          # 集成微信
+          mob.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+      end
+      
+      if ENV['NO_QQ']
+          # 不集成QQ/QZone
+          else
+          # 集成QQ/QZone/TIM
+          mob.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
+      end
+      
+      if ENV['NO_SINA']
+          # 不集成新浪微博
+          else
+          # 集成新浪微博
+          mob.dependency 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
       end
   end
 

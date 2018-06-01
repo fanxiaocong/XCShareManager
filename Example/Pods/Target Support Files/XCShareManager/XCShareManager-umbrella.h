@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "MobShare.h"
+#import "MobShareFactory.h"
 #import "UMengShare.h"
 #import "UMengShareFactory.h"
 #import "XCShareAppDeleagte.h"

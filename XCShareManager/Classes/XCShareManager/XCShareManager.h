@@ -43,10 +43,4 @@ typedef NS_ENUM(NSInteger, XCShareType)
 
 + (instancetype)shareManager;
 
-#pragma mark - 👀 处理与AppDelegate相关的设置 👀 💤
-
-+ (BOOL)shareApplication:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
-
-+ (BOOL)shareApplication:(UIApplication *)application handleOpenURL:(NSURL *)url;
-
 @end

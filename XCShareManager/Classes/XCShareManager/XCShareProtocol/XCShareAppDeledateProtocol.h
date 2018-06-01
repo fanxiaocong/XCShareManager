@@ -9,16 +9,16 @@
 
 @protocol XCShareAppDeledateProtocol <NSObject>
 
-@required
-- (void)application:(UIApplication *)application
+@optional
+- (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation;
 
-- (void)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
 
 /// 仅支持iOS9以上系统，iOS8及以下系统不会回调
-- (void)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
 
 
 @end

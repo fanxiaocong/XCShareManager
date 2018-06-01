@@ -53,20 +53,20 @@
 
 #pragma mark - 👀 XCShareAppDeledateProtocol 👀 💤
 
-- (void)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
+   return [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
-- (void)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
-    [[UMSocialManager defaultManager] handleOpenURL:url];
+   return [[UMSocialManager defaultManager] handleOpenURL:url];
 }
 
 /// 仅支持iOS9以上系统，iOS8及以下系统不会回调
-- (void)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
 {
-    [[UMSocialManager defaultManager]  handleOpenURL:url options:options];
+   return [[UMSocialManager defaultManager]  handleOpenURL:url options:options];
 }
 
 #pragma mark - 🔒 👀 Privite Method 👀

@@ -59,20 +59,17 @@
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    [XCShareAppDeleagte shareApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
-    return YES;
+   return [XCShareAppDeleagte application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
-    [XCShareAppDeleagte shareApplication:application handleOpenURL:url];
-    return YES;
+   return [XCShareAppDeleagte application:application handleOpenURL:url];
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
 {
-    [XCShareAppDeleagte shareApplication:app openURL:url options:options];
-    return YES;
+    return [XCShareAppDeleagte application:app openURL:url options:options];
 }
 
 @end

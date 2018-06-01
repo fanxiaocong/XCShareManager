@@ -7,48 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047F0D3C1A72B1F004E75D7A654B6857 /* XCShareManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0644CE25AD997E9929DD5BCA7BA69718 /* XCShareManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0676AA9F3A0F77C16885786C60882D64 /* Pods-XCShareManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CB81F7ED54B12743F57FCDA45D31C5 /* Pods-XCShareManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00390C3983A87C98AD7A20807E335D82 /* MobShareFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 85853F39A31F86C783E4D87435524D8D /* MobShareFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0111ACFE8442F16C6D7E5DDC27F0242E /* XCShareFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 035518A2DB94FB332DF67EF06C7540AB /* XCShareFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0475DCDAED188D1A229F9D2091524FC8 /* XCShareAppDeleagte.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D3C213DBDBAFF66A5B295E88BB0081 /* XCShareAppDeleagte.m */; };
+		0676AA9F3A0F77C16885786C60882D64 /* Pods-XCShareManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D882715114649657595AC4DA0FE99569 /* Pods-XCShareManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0691E5C09089029F364EA5529081A7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0E2A06524DA44D009509EE1F4C5FAE84 /* XCShareProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F6E479B5FB99D100EB05BB2E98E0A5 /* XCShareProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		231B016E59BD7A597F77A395AF1DDDFF /* XCShareUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FF8673171A179795FEB390B12CA389 /* XCShareUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26A7A34C57EF1C187B3B4F8193413266 /* icon_share_qq_zone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43486ED3089FFA1F63D523A9F866496D /* icon_share_qq_zone@3x.png */; };
-		2CDAB52706259C3EB80B36FC1E74C367 /* icon_share_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A5D20B11941C2378412386EE1C348 /* icon_share_weibo@2x.png */; };
-		39AEFB463747D7AA11589646B630F63E /* XCShareUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E05A448F0545D05F971B54889903EC1 /* XCShareUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AF62A050A5514C77C987C18275A382F /* XCShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0866B8A3CCEE879CFFD907A00ECD80B6 /* XCShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		402DD118075CB3AEC1CB899651F6855D /* XCShareAppDeledateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 368249AAA1B64598A995E730CE604499 /* XCShareAppDeledateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4142CA173459D1B43B5F95BC63F2A1E1 /* XCShareFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B3880B69D6546A250DA174E4004159 /* XCShareFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		485D1EABECC32964C0FC2C5EAF93106D /* XCShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6BAFC85BA00504C8BF4659936D01F1 /* XCShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E0A02E4C734B4567C36141427F84FB5 /* XCShareUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C555ECE72F7B7D81DB30DBF285CD32 /* XCShareUI.m */; };
-		65D45BFF7F5C65FC207BAF8857330295 /* Pods-XCShareManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9335BF30D1E3C9B5EA82AB86F2E0FA0D /* Pods-XCShareManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F30F1783BEBB7357B07399BA104352E /* XCShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C17EEB678CDF197782336B981C2AA /* XCShareItem.m */; };
-		7A3755E1AD760F7B3D6FF50F24FC1A8E /* XCShareItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D14699A33B63DA1CB9E6D7CE73980A16 /* XCShareItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80B6EF354A22CD04916350ED67AEB710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		82F1FB7B9A5CF36C0EA8E8C498813B38 /* icon_share_weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15057C77603D96E7D9CEB4828497B5E8 /* icon_share_weibo@3x.png */; };
-		834173E731D102578E22527BD5B6D550 /* XCShareAppDeleagte.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A89337EA3C0DF9FB70C1BDE0E92F135 /* XCShareAppDeleagte.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D99C498B3DEBF95DE8A8E2237270EF /* UMengShareFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B975C628F0BF1DD238D0FF445DC8B585 /* UMengShareFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C158772F2E4FD942C2D9D3327F7EC67 /* XCShareManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1795EE301D070CA407A20249C1473D /* XCShareManager-dummy.m */; };
-		AC3C656380FDFF7A36BA2FFC739A4FF4 /* icon_share_weixin_zone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F2979613E51A94878A419B348BDB1 /* icon_share_weixin_zone@2x.png */; };
-		B1E93681C788F7A388E2BC26B17CEAE6 /* XCShareAppDeleagte.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A7572D942CE025BF2C91715C58171 /* XCShareAppDeleagte.m */; };
-		B20D5DBF2D1E68C043EA0BE2DE512D68 /* icon_share_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6178B4B6C0F1AA8E85A8CAF1FAC575DC /* icon_share_qq@3x.png */; };
-		B7720988AC938C6D822045E5B1A53037 /* XCSharePlatformConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61AD950C7B9AF5A3D4790493CD5B2E /* XCSharePlatformConfigure.m */; };
-		BD271CDE90676DF0EFA9B89A5782C94D /* UMengShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C46070E51CE1D5329BDF48EC5D773C3 /* UMengShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7DA139036C6C2564161D8C79EB86676 /* UMengShare.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DDF8718A5DED2DAFB0FCC891061B8 /* UMengShare.m */; };
-		C829504E8D9E023A4318F9857FCC0711 /* icon_share_weixin_zone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 006D6625D000CFE5D675DD76303CCB55 /* icon_share_weixin_zone@3x.png */; };
-		D001702C61BE1F3AE69CF448F8B87840 /* Pods-XCShareManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D130775C7FAAB2E9FB29F002B1DF9 /* Pods-XCShareManager_Tests-dummy.m */; };
+		0BCCFF8C75205D8FDFE2AC9B2B9E4879 /* XCShareItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7AA7721CF4B17940FD4FCF86C5F8FC /* XCShareItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D83364AB25CB993BC8C30882544A277 /* MobShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 000E5D8F4934E5BCD831D3FD4DB50B5D /* MobShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103C54FAA090A9DD82392A3B18D59171 /* Pods-XCShareManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6473BD05D4350C6C0691AA596B60224 /* Pods-XCShareManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12807B8B95105AC8AF05665CE8299D32 /* XCShareUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D72E4E33CB53BA73E6D602FA1F01B8 /* XCShareUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13109CC018314D897FB2D5209049414F /* XCShareUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DCE611C9E5FF5935BC5B39F18D89A9 /* XCShareUI.m */; };
+		140108C29DFEECB1EDB4EF3E6354E65C /* XCSharePlatformConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A82D25521B7B8D85A681622A555981 /* XCSharePlatformConfigure.m */; };
+		16D6E33C4B4981A5708028EA36DA6082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26A7A34C57EF1C187B3B4F8193413266 /* icon_share_qq_zone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB534D364BE04746FA3BF7F0887B28A6 /* icon_share_qq_zone@3x.png */; };
+		29271E8B3272B1852F0A7FB4A99835F2 /* XCShareItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FBFF5259B4179FE14EE7658DAE3F3 /* XCShareItemModel.m */; };
+		2BBA863D26A7458FE14EB84D8E064556 /* UMengShareFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1787C76ECF876AEA86AC3911BEBDAB /* UMengShareFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CDAB52706259C3EB80B36FC1E74C367 /* icon_share_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD139C0789360525B6A9531DD99D1FC7 /* icon_share_weibo@2x.png */; };
+		3296675575E5BE3EAD6AEFBA271F3503 /* MobShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92A83EA49FCC8DDD1934FDE2FB0AE5 /* MobShare.m */; };
+		3701D8D8B47EC08D4D28FF262AA281F6 /* XCShareManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B12592CD35FA7A365F7F17CCAE4645 /* XCShareManager-dummy.m */; };
+		433477994B34263D5A60CFA7F3076DF8 /* UMengShare.m in Sources */ = {isa = PBXBuildFile; fileRef = CB348128D7876FF2F595A9B76BD75D97 /* UMengShare.m */; };
+		51B02AB289FDA4347954E59928EEEC84 /* XCShareUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D254E69AC681C8F79255A9BACD9B8E /* XCShareUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9A9968ECAA7855CEA65E196F09FECC /* XCShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CA8E5621350C856DC73B54CD8AB2A1 /* XCShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F1FB7B9A5CF36C0EA8E8C498813B38 /* icon_share_weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3CC7BD79150542F5727972C0640969 /* icon_share_weibo@3x.png */; };
+		83133586CE3297FEBC2468D7F10C6E3A /* XCShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C21BB49BCFE073E180B5640A483556D9 /* XCShareItem.m */; };
+		8B1303E4FB6331CC5A5C6AC97B9F3C12 /* XCShareItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D670A70D77BB619488C5CF40CECEBC /* XCShareItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B031DDE946AA37B44B01DE5E5D10EDC /* XCSharePlatformConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6D49177C88B701709890365AF43FC5 /* XCSharePlatformConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48FA621DD71003B57E6C66C6703E760 /* XCShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E16EEE90E604212D51870E9EFF64FC8 /* XCShareView.m */; };
+		AB97E4DD96E46B41551115204ADD0D82 /* XCShareAppDeledateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA59BF0022D8347DFD959C1E59CCE2E /* XCShareAppDeledateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC3C656380FDFF7A36BA2FFC739A4FF4 /* icon_share_weixin_zone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73694CC5C4B778C7BAD945B37289F2FF /* icon_share_weixin_zone@2x.png */; };
+		B078114BE9F928AA4133698FF8094709 /* UMengShareFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CD7A646A2E89774D1790E7012AC710 /* UMengShareFactory.m */; };
+		B20D5DBF2D1E68C043EA0BE2DE512D68 /* icon_share_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F452EC631CDA8B6B699BF11D7FF6F807 /* icon_share_qq@3x.png */; };
+		B4961B2DBFC316789DCD37CE516D3ED8 /* UMengShare.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E9EB63D672F2B7B24761BFBF60FB5E /* UMengShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59C0363FF4C4A76428A15DA71ABCBB7 /* XCShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FFB8CDCBED72E0B7BAB60B8C028B1B /* XCShareManager.m */; };
+		C829504E8D9E023A4318F9857FCC0711 /* icon_share_weixin_zone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F967FC87986BD66D001D179F097A0DD /* icon_share_weixin_zone@3x.png */; };
+		CDFD3FBA5D97688D59EDF2A77EBD5840 /* XCShareProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D52A6E0972FE61C7340859C6AAE1773 /* XCShareProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D62304034CCC3541AB9BB3EA31C3539F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D6684179770F588BB401945DE2047226 /* UMengShareFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E487CAF3180C4B57D5D35E04316F260F /* UMengShareFactory.m */; };
-		D8667A9BAF7D4ABE710C3CAF70232B1C /* XCShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F09021C046DED4A6B6DE9ED96725706C /* XCShareManager.m */; };
-		DA2905392D532F331FDF40E518B4F206 /* icon_share_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F6C47ACA6D3DFCC106022F740C712F /* icon_share_weixin@2x.png */; };
-		DC34584B58D2A9114E0E4A006E9914E9 /* Pods-XCShareManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451068F81270B8D438C4C2A8FAE5AF9F /* Pods-XCShareManager_Example-dummy.m */; };
-		DDB26ABE4973EEF18D6BB519BD4F90BF /* icon_share_qq_zone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F41BFD6B60B6B8B1353C7CFA292D1 /* icon_share_qq_zone@2x.png */; };
-		DE86E643ACFF8FF56925DA3D96A5AE09 /* icon_share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F354E664C03E8AC9F23C13FF39D8A68F /* icon_share_qq@2x.png */; };
-		E7A260C8D44F22B8B970C2326D558C2E /* XCShareItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 978D745933C7936F66E495A88D3E2F04 /* XCShareItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB9029E9433C67C0AFC50281D00032D8 /* icon_share_weixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9ADBE53BC4DD88128F44801D315278 /* icon_share_weixin@3x.png */; };
-		F39B5E71B1B813C498DB9A44566F6A73 /* XCSharePlatformConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6F1D4C6F67676D15C31200CA38CD3B /* XCSharePlatformConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F42E3FBBC265951C548AFC486DE7FECA /* XCShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D5E43C865F09788FB757C67B5EA41 /* XCShareView.m */; };
-		F4A452A611E3173E36A45985C114B3C8 /* XCShareItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 885EC5000540434C204D2B1AD22D2324 /* XCShareItemModel.m */; };
-		FF41641135E3E38B9F456461C7F375EF /* XCShareManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0DD964CAA004854169AED4B6E268719 /* XCShareManager.bundle */; };
+		D6239B90D45FE86877DBE9AE682C28B5 /* XCShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 947738B224600930BEACC33655742E0E /* XCShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2905392D532F331FDF40E518B4F206 /* icon_share_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8D81884948ED3B0BAAF7C0CED94D2AA /* icon_share_weixin@2x.png */; };
+		DC34584B58D2A9114E0E4A006E9914E9 /* Pods-XCShareManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640FFC15FC020981E9AF64A20937DBD0 /* Pods-XCShareManager_Example-dummy.m */; };
+		DDB26ABE4973EEF18D6BB519BD4F90BF /* icon_share_qq_zone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1203643019C313D20B03DAF97001A335 /* icon_share_qq_zone@2x.png */; };
+		DE86E643ACFF8FF56925DA3D96A5AE09 /* icon_share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D4222354CC3689EAE3B0B977EF107F /* icon_share_qq@2x.png */; };
+		EB9029E9433C67C0AFC50281D00032D8 /* icon_share_weixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6B2CD2273F6638783422578F1A298 /* icon_share_weixin@3x.png */; };
+		F995198F8DF153B3C0ADEE86502AF2D4 /* MobShareFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848A8861DD2E5A4A26A234B8EC13396 /* MobShareFactory.m */; };
+		FA0F7F0EF955D7771FC767E9E15C24B4 /* XCShareManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FD70FB4CDA3D0CDC58882C8FBDB082 /* XCShareManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD4F062CE6EF0EB17AF14D4A86D0D112 /* XCShareAppDeleagte.h in Headers */ = {isa = PBXBuildFile; fileRef = D0988E46E83D3724DBB628340C9D35AA /* XCShareAppDeleagte.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDC899703A5DCD9BB2460434061502F9 /* Pods-XCShareManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531BB2BEC9087773E5465A7E773D5A34 /* Pods-XCShareManager_Tests-dummy.m */; };
+		FF41641135E3E38B9F456461C7F375EF /* XCShareManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BB0E9844A165E328003D304B5C968 /* XCShareManager.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,94 +70,122 @@
 			remoteGlobalIDString = 1E45417D0C5C6EE5A17B0DE54E436B89;
 			remoteInfo = XCShareManager;
 		};
+		52F7BE096FB9ADBD10C7AE14687F642A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B75B0100D8F5195918A0631EDAF5D69;
+			remoteInfo = "Pods-XCShareManager_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006D6625D000CFE5D675DD76303CCB55 /* icon_share_weixin_zone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin_zone@3x.png"; path = "XCShareManager/Assets/icon_share_weixin_zone@3x.png"; sourceTree = "<group>"; };
-		022CE97F720ACE2FD94C4B4FEAF6BB43 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
-		0644CE25AD997E9929DD5BCA7BA69718 /* XCShareManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCShareManager-umbrella.h"; sourceTree = "<group>"; };
-		0866B8A3CCEE879CFFD907A00ECD80B6 /* XCShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareView.h; sourceTree = "<group>"; };
-		0EC15B381419A5E462C1C19D886A510A /* XCShareManager.framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XCShareManager.framework; path = libXCShareManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F05AE45A61016906BDB8EF82F1E0E3C /* Pods-XCShareManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		138F2979613E51A94878A419B348BDB1 /* icon_share_weixin_zone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin_zone@2x.png"; path = "XCShareManager/Assets/icon_share_weixin_zone@2x.png"; sourceTree = "<group>"; };
-		15057C77603D96E7D9CEB4828497B5E8 /* icon_share_weibo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weibo@3x.png"; path = "XCShareManager/Assets/icon_share_weibo@3x.png"; sourceTree = "<group>"; };
-		1D7C17EEB678CDF197782336B981C2AA /* XCShareItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareItem.m; sourceTree = "<group>"; };
-		1E597599DFD150DE7F848B9DF2891385 /* ResourceBundle-XCShareManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XCShareManager-Info.plist"; sourceTree = "<group>"; };
-		20E47E55E95AAF4CC7BBC182CBD99CEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		21C24C6C52BF036F8A65684AB2254730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C9C2DF1EC570FB965D34555A0B1DF64 /* Pods-XCShareManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2F829209601BE6C598C6FA5142F2AD46 /* Pods-XCShareManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		368249AAA1B64598A995E730CE604499 /* XCShareAppDeledateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareAppDeledateProtocol.h; sourceTree = "<group>"; };
-		381A37BA3C836661027DB7C6A027686E /* Pods-XCShareManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCShareManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F6F1D4C6F67676D15C31200CA38CD3B /* XCSharePlatformConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCSharePlatformConfigure.h; path = XCShareManager/Classes/XCShareManager/XCSharePlatformConfigure.h; sourceTree = "<group>"; };
-		419B29418F102C9CC17C235125F4F359 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
-		43486ED3089FFA1F63D523A9F866496D /* icon_share_qq_zone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq_zone@3x.png"; path = "XCShareManager/Assets/icon_share_qq_zone@3x.png"; sourceTree = "<group>"; };
-		451068F81270B8D438C4C2A8FAE5AF9F /* Pods-XCShareManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCShareManager_Example-dummy.m"; sourceTree = "<group>"; };
-		49F6C47ACA6D3DFCC106022F740C712F /* icon_share_weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin@2x.png"; path = "XCShareManager/Assets/icon_share_weixin@2x.png"; sourceTree = "<group>"; };
-		4A9A5D20B11941C2378412386EE1C348 /* icon_share_weibo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weibo@2x.png"; path = "XCShareManager/Assets/icon_share_weibo@2x.png"; sourceTree = "<group>"; };
-		4E05A448F0545D05F971B54889903EC1 /* XCShareUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareUtil.h; sourceTree = "<group>"; };
-		5A6BAFC85BA00504C8BF4659936D01F1 /* XCShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCShareManager.h; path = XCShareManager/Classes/XCShareManager/XCShareManager.h; sourceTree = "<group>"; };
-		5B6D5E43C865F09788FB757C67B5EA41 /* XCShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareView.m; sourceTree = "<group>"; };
-		5CCD5250D378316BE8EC15BDB15B00DF /* Pods-XCShareManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCShareManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D61AD950C7B9AF5A3D4790493CD5B2E /* XCSharePlatformConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSharePlatformConfigure.m; path = XCShareManager/Classes/XCShareManager/XCSharePlatformConfigure.m; sourceTree = "<group>"; };
-		6178B4B6C0F1AA8E85A8CAF1FAC575DC /* icon_share_qq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@3x.png"; path = "XCShareManager/Assets/icon_share_qq@3x.png"; sourceTree = "<group>"; };
+		000E5D8F4934E5BCD831D3FD4DB50B5D /* MobShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobShare.h; path = XCShareManager/Classes/MobShare/MobShare.h; sourceTree = "<group>"; };
+		01F48DFACC5204D8B0A1C569935BDF8C /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		035518A2DB94FB332DF67EF06C7540AB /* XCShareFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareFactoryProtocol.h; sourceTree = "<group>"; };
+		03B12592CD35FA7A365F7F17CCAE4645 /* XCShareManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCShareManager-dummy.m"; sourceTree = "<group>"; };
+		06BEC515186D4C438EFEAA1A074262D4 /* XCShareManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCShareManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06E6499FCA00F9B130DDCA6096B1BF57 /* Pods-XCShareManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		06FD70FB4CDA3D0CDC58882C8FBDB082 /* XCShareManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCShareManager-umbrella.h"; sourceTree = "<group>"; };
+		0A1787C76ECF876AEA86AC3911BEBDAB /* UMengShareFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMengShareFactory.h; path = XCShareManager/Classes/UMengShare/UMengShareFactory.h; sourceTree = "<group>"; };
+		0E5BB0E9844A165E328003D304B5C968 /* XCShareManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XCShareManager.bundle; path = "XCShareManager-XCShareManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1203643019C313D20B03DAF97001A335 /* icon_share_qq_zone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq_zone@2x.png"; path = "XCShareManager/Assets/icon_share_qq_zone@2x.png"; sourceTree = "<group>"; };
+		18AA159510ADD6D413A8C26E3015FE8B /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		1BCF4C85372922F9A6183E47E19DACA6 /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WechatConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/WechatConnector.framework; sourceTree = "<group>"; };
+		1C92A83EA49FCC8DDD1934FDE2FB0AE5 /* MobShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobShare.m; path = XCShareManager/Classes/MobShare/MobShare.m; sourceTree = "<group>"; };
+		21A82D25521B7B8D85A681622A555981 /* XCSharePlatformConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSharePlatformConfigure.m; path = XCShareManager/Classes/XCShareManager/XCSharePlatformConfigure.m; sourceTree = "<group>"; };
+		23CD7A646A2E89774D1790E7012AC710 /* UMengShareFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMengShareFactory.m; path = XCShareManager/Classes/UMengShare/UMengShareFactory.m; sourceTree = "<group>"; };
+		26D4222354CC3689EAE3B0B977EF107F /* icon_share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@2x.png"; path = "XCShareManager/Assets/icon_share_qq@2x.png"; sourceTree = "<group>"; };
+		2C3DCB90BD287E9C6D5F815499BB7228 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = SDK/ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		2D52A6E0972FE61C7340859C6AAE1773 /* XCShareProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareProtocol.h; sourceTree = "<group>"; };
+		2DE6B2CD2273F6638783422578F1A298 /* icon_share_weixin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin@3x.png"; path = "XCShareManager/Assets/icon_share_weixin@3x.png"; sourceTree = "<group>"; };
+		309E569E925C7CC6009F5518667735DC /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		35D5DA0E935A2D10C8CEE3CA8B948F15 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		3848A8861DD2E5A4A26A234B8EC13396 /* MobShareFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobShareFactory.m; path = XCShareManager/Classes/MobShare/MobShareFactory.m; sourceTree = "<group>"; };
+		3E83EB4642596A1A60D3B7417B6C5052 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		41D254E69AC681C8F79255A9BACD9B8E /* XCShareUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareUI.h; sourceTree = "<group>"; };
+		41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCShareManager.xcconfig; sourceTree = "<group>"; };
+		46D72E4E33CB53BA73E6D602FA1F01B8 /* XCShareUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareUtil.h; sourceTree = "<group>"; };
+		4B9FBFF5259B4179FE14EE7658DAE3F3 /* XCShareItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareItemModel.m; sourceTree = "<group>"; };
+		4F6E33DC16C5CEE84F71C79F15E04640 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		531BB2BEC9087773E5465A7E773D5A34 /* Pods-XCShareManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCShareManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		53993BCFE3301641BAB84990D01D9B96 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		53D94614F08526CAC8412B878D44B506 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		56516EAACAD5F7FF020C988862024D94 /* ResourceBundle-XCShareManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XCShareManager-Info.plist"; sourceTree = "<group>"; };
+		5E3C2C7BE3E6C4456490B533B5A63920 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
+		5F967FC87986BD66D001D179F097A0DD /* icon_share_weixin_zone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin_zone@3x.png"; path = "XCShareManager/Assets/icon_share_weixin_zone@3x.png"; sourceTree = "<group>"; };
+		60A4C185575E73E6751C0C865FFDBEA9 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UShareSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
+		60C5DA6CE782C3D813DC224747FE7984 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		617E4EB161C4FE050E34360F7DED518C /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		62AEF799CD6270058CBFF37D85E5FECD /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
+		640FFC15FC020981E9AF64A20937DBD0 /* Pods-XCShareManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCShareManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66CB81F7ED54B12743F57FCDA45D31C5 /* Pods-XCShareManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCShareManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		6A9B1832E4F3FCED9C871939D04F536E /* Pods-XCShareManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7A89337EA3C0DF9FB70C1BDE0E92F135 /* XCShareAppDeleagte.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCShareAppDeleagte.h; path = XCShareManager/Classes/XCShareManager/XCShareAppDeleagte.h; sourceTree = "<group>"; };
-		7F7E5E594C1F6E122EC6322D88674B51 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UShareSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
-		835FDFFB31C180B8AD195075A234AD02 /* Pods-XCShareManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCShareManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86A78E67C25CC29096EBF4FE26F62694 /* Pods-XCShareManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCShareManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8747CA88743709147ACFB7A5A38B861C /* Pods_XCShareManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCShareManager_Example.framework; path = "Pods-XCShareManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		875FC2614529A72CAF08BB0A432D3442 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
-		885EC5000540434C204D2B1AD22D2324 /* XCShareItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareItemModel.m; sourceTree = "<group>"; };
-		88C555ECE72F7B7D81DB30DBF285CD32 /* XCShareUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareUI.m; sourceTree = "<group>"; };
-		8BC563799C5A9CEE3D54B70D180A96ED /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
-		8BCB297FAD6C12F2FA57C24CF699FAE5 /* XCShareManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XCShareManager.modulemap; sourceTree = "<group>"; };
-		8C46070E51CE1D5329BDF48EC5D773C3 /* UMengShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMengShare.h; path = XCShareManager/Classes/UMengShare/UMengShare.h; sourceTree = "<group>"; };
-		928A7572D942CE025BF2C91715C58171 /* XCShareAppDeleagte.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCShareAppDeleagte.m; path = XCShareManager/Classes/XCShareManager/XCShareAppDeleagte.m; sourceTree = "<group>"; };
-		9335BF30D1E3C9B5EA82AB86F2E0FA0D /* Pods-XCShareManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCShareManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93402CD74DFAE5F400D91066F5381C2F /* Pods-XCShareManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		668200C70EC1A0A72F0BC2FB7098AFA9 /* Pods-XCShareManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCShareManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67B37963FB99FEDED08CBE2FAC9656FC /* XCShareManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCShareManager.framework; path = XCShareManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE0EAC211E88F5C0D324287E9AB587B /* Pods-XCShareManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F84A369585313D5E0DECB1F173A12C1 /* Pods-XCShareManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		706307F372E456DC7C9887BA5B0DDED2 /* Pods-XCShareManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCShareManager_Tests.modulemap"; sourceTree = "<group>"; };
+		710D15B2E57A9AEB0BF50C93618788E1 /* Pods-XCShareManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCShareManager_Example.modulemap"; sourceTree = "<group>"; };
+		71D670A70D77BB619488C5CF40CECEBC /* XCShareItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareItem.h; sourceTree = "<group>"; };
+		72956A4E04C0CB0364E331700023680A /* Pods-XCShareManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73694CC5C4B778C7BAD945B37289F2FF /* icon_share_weixin_zone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin_zone@2x.png"; path = "XCShareManager/Assets/icon_share_weixin_zone@2x.png"; sourceTree = "<group>"; };
+		7BB0E314DDF3E605936BE7A51AEB06F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7CA59BF0022D8347DFD959C1E59CCE2E /* XCShareAppDeledateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareAppDeledateProtocol.h; sourceTree = "<group>"; };
+		7E16EEE90E604212D51870E9EFF64FC8 /* XCShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareView.m; sourceTree = "<group>"; };
+		85148B2A1D5BA089E254F2A7CD21713F /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		85853F39A31F86C783E4D87435524D8D /* MobShareFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobShareFactory.h; path = XCShareManager/Classes/MobShare/MobShareFactory.h; sourceTree = "<group>"; };
+		86563678345C3A25D9083C6BEE29246E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89843BA2C37627CBCCDA3E7C769E925E /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QQConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/QQConnector.framework; sourceTree = "<group>"; };
+		8E3CC7BD79150542F5727972C0640969 /* icon_share_weibo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weibo@3x.png"; path = "XCShareManager/Assets/icon_share_weibo@3x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95413FFC8F398B7BBA00BA95E23FAE45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		95FF8673171A179795FEB390B12CA389 /* XCShareUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareUI.h; sourceTree = "<group>"; };
-		96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCShareManager.xcconfig; sourceTree = "<group>"; };
-		978D745933C7936F66E495A88D3E2F04 /* XCShareItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareItem.h; sourceTree = "<group>"; };
-		983BDAC52BBD393C9003C2D3F880E2BA /* Pods-XCShareManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		9F1795EE301D070CA407A20249C1473D /* XCShareManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCShareManager-dummy.m"; sourceTree = "<group>"; };
-		A0B3880B69D6546A250DA174E4004159 /* XCShareFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareFactoryProtocol.h; sourceTree = "<group>"; };
-		AF9ADBE53BC4DD88128F44801D315278 /* icon_share_weixin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin@3x.png"; path = "XCShareManager/Assets/icon_share_weixin@3x.png"; sourceTree = "<group>"; };
-		B3394E348B2E91DCD7024A1132F0D529 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
-		B975C628F0BF1DD238D0FF445DC8B585 /* UMengShareFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMengShareFactory.h; path = XCShareManager/Classes/UMengShare/UMengShareFactory.h; sourceTree = "<group>"; };
-		BAC3F0AAA0B51BF119803DF99F2EB839 /* Pods-XCShareManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCShareManager_Tests.modulemap"; sourceTree = "<group>"; };
-		C1F6E479B5FB99D100EB05BB2E98E0A5 /* XCShareProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareProtocol.h; sourceTree = "<group>"; };
-		C28D130775C7FAAB2E9FB29F002B1DF9 /* Pods-XCShareManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCShareManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		C67F41BFD6B60B6B8B1353C7CFA292D1 /* icon_share_qq_zone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq_zone@2x.png"; path = "XCShareManager/Assets/icon_share_qq_zone@2x.png"; sourceTree = "<group>"; };
-		D14699A33B63DA1CB9E6D7CE73980A16 /* XCShareItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareItemModel.h; sourceTree = "<group>"; };
-		D1D203CCDF0084C394FD9F6908F61AD4 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
-		D4C4B70060EEBF3C5A043BF8D03BFCF7 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
-		D6BDECCE9AADB5BEF32EE429215704EA /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
-		DE8DDF8718A5DED2DAFB0FCC891061B8 /* UMengShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMengShare.m; path = XCShareManager/Classes/UMengShare/UMengShare.m; sourceTree = "<group>"; };
-		DF1673EEA678F509518B4FE3B2D1EAA3 /* Pods-XCShareManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCShareManager_Example.modulemap"; sourceTree = "<group>"; };
-		E091680D2F56C4DBF9F26A1F11A777B7 /* Pods-XCShareManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E0DD964CAA004854169AED4B6E268719 /* XCShareManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XCShareManager.bundle; path = "XCShareManager-XCShareManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E487CAF3180C4B57D5D35E04316F260F /* UMengShareFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMengShareFactory.m; path = XCShareManager/Classes/UMengShare/UMengShareFactory.m; sourceTree = "<group>"; };
-		EA30CF87A92B7B28A0A4C1D20E031A0D /* XCShareManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCShareManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EE69AA4DACD89FB6D385333598A166C5 /* XCShareManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCShareManager-prefix.pch"; sourceTree = "<group>"; };
-		F09021C046DED4A6B6DE9ED96725706C /* XCShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCShareManager.m; path = XCShareManager/Classes/XCShareManager/XCShareManager.m; sourceTree = "<group>"; };
-		F255E4DAACC5F86F0382CB5D557C9EDB /* Pods_XCShareManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCShareManager_Tests.framework; path = "Pods-XCShareManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F354E664C03E8AC9F23C13FF39D8A68F /* icon_share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@2x.png"; path = "XCShareManager/Assets/icon_share_qq@2x.png"; sourceTree = "<group>"; };
-		F4164D8B8F12C444123C100346BF722A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F70AA45F3C79DA2037E2922324706034 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
-		F76954AAD7D7CDDE21B85B5BBA99F171 /* Pods-XCShareManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Example-resources.sh"; sourceTree = "<group>"; };
+		947738B224600930BEACC33655742E0E /* XCShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCShareManager.h; path = XCShareManager/Classes/XCShareManager/XCShareManager.h; sourceTree = "<group>"; };
+		97A031EB78B871CFA16B5DE61985CB63 /* Pods-XCShareManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCShareManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		98ACEFC7C8655ECF4E1D9F20908B883B /* XCShareManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCShareManager-prefix.pch"; sourceTree = "<group>"; };
+		9F49DAE71CCDA22D88E5C26F91EA263D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = SDK/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		B09BD36BA475C6CDB16D0AD81417707A /* Pods_XCShareManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCShareManager_Example.framework; path = "Pods-XCShareManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF268B05ACBACDC7596311858142A6 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		B3E9EB63D672F2B7B24761BFBF60FB5E /* UMengShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMengShare.h; path = XCShareManager/Classes/UMengShare/UMengShare.h; sourceTree = "<group>"; };
+		B410F7CB683294DAA3889D3EFD171593 /* Pods-XCShareManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCShareManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8DCE611C9E5FF5935BC5B39F18D89A9 /* XCShareUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareUI.m; sourceTree = "<group>"; };
+		B8E54A2C4BE230EEFF25DAC720A338F9 /* Pods-XCShareManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB534D364BE04746FA3BF7F0887B28A6 /* icon_share_qq_zone@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq_zone@3x.png"; path = "XCShareManager/Assets/icon_share_qq_zone@3x.png"; sourceTree = "<group>"; };
+		BC43ECED1C287C072C449C47612E0C24 /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = SDK/ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
+		C04C3BB75BE4EFFE5B259944DA61FA7B /* Pods-XCShareManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCShareManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C21BB49BCFE073E180B5640A483556D9 /* XCShareItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCShareItem.m; sourceTree = "<group>"; };
+		C3D3C213DBDBAFF66A5B295E88BB0081 /* XCShareAppDeleagte.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCShareAppDeleagte.m; path = XCShareManager/Classes/XCShareManager/XCShareAppDeleagte.m; sourceTree = "<group>"; };
+		C6473BD05D4350C6C0691AA596B60224 /* Pods-XCShareManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCShareManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C785F313E4E873AD16A0A2E60B6E479B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E6E43452B98FE6562C6B623BAF1FBB /* SinaWeiboConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SinaWeiboConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/SinaWeiboConnector.framework; sourceTree = "<group>"; };
+		CB348128D7876FF2F595A9B76BD75D97 /* UMengShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMengShare.m; path = XCShareManager/Classes/UMengShare/UMengShare.m; sourceTree = "<group>"; };
+		CB751E76386B67995F988D1F558BB3F9 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WXApi.h; sourceTree = "<group>"; };
+		CD139C0789360525B6A9531DD99D1FC7 /* icon_share_weibo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weibo@2x.png"; path = "XCShareManager/Assets/icon_share_weibo@2x.png"; sourceTree = "<group>"; };
+		CDF3E2F666DB30C5FAE912815F4D0407 /* Pods-XCShareManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCShareManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0988E46E83D3724DBB628340C9D35AA /* XCShareAppDeleagte.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCShareAppDeleagte.h; path = XCShareManager/Classes/XCShareManager/XCShareAppDeleagte.h; sourceTree = "<group>"; };
+		D23FAEC70008451D86FC974B6A632513 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		D3CA8E5621350C856DC73B54CD8AB2A1 /* XCShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareView.h; sourceTree = "<group>"; };
+		D882715114649657595AC4DA0FE99569 /* Pods-XCShareManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCShareManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD248C15F7359115A6021F6880150A00 /* Pods-XCShareManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		DE6D49177C88B701709890365AF43FC5 /* XCSharePlatformConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCSharePlatformConfigure.h; path = XCShareManager/Classes/XCShareManager/XCSharePlatformConfigure.h; sourceTree = "<group>"; };
+		E08691C34695E300AC3E7DE7977950DC /* Pods-XCShareManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCShareManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E7E61F7630B4A8B249823F999F7DEF14 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
+		EE6B2CAD5A5C5749C2D2F269AE67AE81 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		F023C69AE51D378D915782B4AAD03A2D /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = SDK/ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		F1FFB8CDCBED72E0B7BAB60B8C028B1B /* XCShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCShareManager.m; path = XCShareManager/Classes/XCShareManager/XCShareManager.m; sourceTree = "<group>"; };
+		F265C303F4BCBED981053C7C8F067304 /* XCShareManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCShareManager.modulemap; sourceTree = "<group>"; };
+		F42C107D0D5011E32F159F7589E16122 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK/ShareSDK/Support/PlatformSDK/WeChatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		F452EC631CDA8B6B699BF11D7FF6F807 /* icon_share_qq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_qq@3x.png"; path = "XCShareManager/Assets/icon_share_qq@3x.png"; sourceTree = "<group>"; };
+		F8D81884948ED3B0BAAF7C0CED94D2AA /* icon_share_weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_share_weixin@2x.png"; path = "XCShareManager/Assets/icon_share_weixin@2x.png"; sourceTree = "<group>"; };
+		F95D57FB0C2832955977237B47F54806 /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		FD7AA7721CF4B17940FD4FCF86C5F8FC /* XCShareItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCShareItemModel.h; sourceTree = "<group>"; };
+		FE9B8845E6D07414B1B333AA936DB8E6 /* Pods_XCShareManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCShareManager_Tests.framework; path = "Pods-XCShareManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01DEF02E36768D2161198740D47ADBD0 /* Frameworks */ = {
+		1CD65F9A455C8BA0849A769E7A397CF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B6EF354A22CD04916350ED67AEB710 /* Foundation.framework in Frameworks */,
+				16D6E33C4B4981A5708028EA36DA6082 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,222 +215,349 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EC633100216EB2C3FE627C080924623 /* Social */ = {
+		023FAE7DE23C9009FDF77688D9C1E1F3 /* XCShareManager */ = {
 			isa = PBXGroup;
 			children = (
-				7A1E1ED0D51F93EA0AFD59FE789E86C1 /* ReducedQQ */,
-				6F0876C32FCF113788DC40DD95FD4FC3 /* ReducedSina */,
-				5D451CED28D4C82F475C6A0A2710B096 /* ReducedWeChat */,
+				D0988E46E83D3724DBB628340C9D35AA /* XCShareAppDeleagte.h */,
+				C3D3C213DBDBAFF66A5B295E88BB0081 /* XCShareAppDeleagte.m */,
+				947738B224600930BEACC33655742E0E /* XCShareManager.h */,
+				F1FFB8CDCBED72E0B7BAB60B8C028B1B /* XCShareManager.m */,
+				DE6D49177C88B701709890365AF43FC5 /* XCSharePlatformConfigure.h */,
+				21A82D25521B7B8D85A681622A555981 /* XCSharePlatformConfigure.m */,
+				92F1BB05AA52B9BD135F9710A85773D6 /* Resources */,
+				1F00E89E85B29A9A41050D5A9AEB0FCB /* XCShareProtocol */,
+				9DC82841D0635DA1304B50D2D5BB6AD7 /* XCShareUI */,
 			);
-			name = Social;
+			name = XCShareManager;
 			sourceTree = "<group>";
 		};
-		1D587F8732FAEE22FF4053139D99164B /* UMengUShare */ = {
+		07FA3E3D284462DC97783455B1F787FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F88547C1922E285E454761BD803BF1F /* Core */,
-				7E59DF122A7438E26BF0220E9DD1B121 /* Network */,
-				0EC633100216EB2C3FE627C080924623 /* Social */,
-			);
-			name = UMengUShare;
-			path = UMengUShare;
-			sourceTree = "<group>";
-		};
-		3AE636F5F1571A39A20CAF793B7329AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				95413FFC8F398B7BBA00BA95E23FAE45 /* LICENSE */,
-				20E47E55E95AAF4CC7BBC182CBD99CEB /* README.md */,
-				EA30CF87A92B7B28A0A4C1D20E031A0D /* XCShareManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3DD69FB70B6EFB65162D37D94424A1B5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B3394E348B2E91DCD7024A1132F0D529 /* libSocialWeChat.a */,
+				60A4C185575E73E6751C0C865FFDBEA9 /* libSocialSina.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F88547C1922E285E454761BD803BF1F /* Core */ = {
+		0A16ABDFB2F7702157157DCBBEDE1B5F /* mob_sharesdk */ = {
 			isa = PBXGroup;
 			children = (
-				D946544AB81AAE85CF4BC19FC2CAD17A /* Frameworks */,
-				5AB5C8C20117572FEEDA3CC8480DEC4F /* Resources */,
+				382FE937C559441BC72F0CBD38DCC5EC /* ShareSDK */,
+				C3E08D0E4FA79DC45E239B5D3FF024DA /* ShareSDKPlatforms */,
+			);
+			name = mob_sharesdk;
+			path = mob_sharesdk;
+			sourceTree = "<group>";
+		};
+		0D8FAA440E2E3E09D504A085A8D61FD0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70AD1B1699CF546756645D3596E5868C /* Frameworks */,
+				825A16EB699D1F85C983E0E8505B884D /* Resources */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		407C52E4EB9B2BB7C556A71DB26CEF4A /* XCShareProtocol */ = {
+		1052004251D914E4DEE49C6428D345EE /* Social */ = {
 			isa = PBXGroup;
 			children = (
-				368249AAA1B64598A995E730CE604499 /* XCShareAppDeledateProtocol.h */,
-				A0B3880B69D6546A250DA174E4004159 /* XCShareFactoryProtocol.h */,
-				C1F6E479B5FB99D100EB05BB2E98E0A5 /* XCShareProtocol.h */,
+				975EF942D5AD65335DB8C0B41C5849BA /* ReducedQQ */,
+				CB2F56F7E3BE98056E17FE810EB4737A /* ReducedSina */,
+				DF5BD2D46F1EAF8D93BC38727A5E52B6 /* ReducedWeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		1F00E89E85B29A9A41050D5A9AEB0FCB /* XCShareProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				7CA59BF0022D8347DFD959C1E59CCE2E /* XCShareAppDeledateProtocol.h */,
+				035518A2DB94FB332DF67EF06C7540AB /* XCShareFactoryProtocol.h */,
+				2D52A6E0972FE61C7340859C6AAE1773 /* XCShareProtocol.h */,
 			);
 			name = XCShareProtocol;
 			path = XCShareManager/Classes/XCShareManager/XCShareProtocol;
 			sourceTree = "<group>";
 		};
-		41D28880C0FBC323A55F167258DA72E0 /* Support Files */ = {
+		2652566D5B40E0657032D19A6E2C15A5 /* UMengUShare */ = {
 			isa = PBXGroup;
 			children = (
-				1E597599DFD150DE7F848B9DF2891385 /* ResourceBundle-XCShareManager-Info.plist */,
-				8BCB297FAD6C12F2FA57C24CF699FAE5 /* XCShareManager.modulemap */,
-				96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */,
-				9F1795EE301D070CA407A20249C1473D /* XCShareManager-dummy.m */,
-				EE69AA4DACD89FB6D385333598A166C5 /* XCShareManager-prefix.pch */,
-				0644CE25AD997E9929DD5BCA7BA69718 /* XCShareManager-umbrella.h */,
+				0D8FAA440E2E3E09D504A085A8D61FD0 /* Core */,
+				3796A18C342DC57072BF7C4D00E602E8 /* Network */,
+				1052004251D914E4DEE49C6428D345EE /* Social */,
+			);
+			name = UMengUShare;
+			path = UMengUShare;
+			sourceTree = "<group>";
+		};
+		2687D2BE177403E6DE8B46198BD7B65E /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				617E4EB161C4FE050E34360F7DED518C /* WBHttpRequest.h */,
+				35D5DA0E935A2D10C8CEE3CA8B948F15 /* WeiboSDK.h */,
+				3E2A4085F32F449067DDE86F106EA65B /* Frameworks */,
+				EC0CC8DC137C7DE34532D79C8F4E0F2F /* Resources */,
+			);
+			name = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		36EF6B364D5D6955D63F541EACFF2927 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56516EAACAD5F7FF020C988862024D94 /* ResourceBundle-XCShareManager-Info.plist */,
+				F265C303F4BCBED981053C7C8F067304 /* XCShareManager.modulemap */,
+				41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */,
+				03B12592CD35FA7A365F7F17CCAE4645 /* XCShareManager-dummy.m */,
+				98ACEFC7C8655ECF4E1D9F20908B883B /* XCShareManager-prefix.pch */,
+				06FD70FB4CDA3D0CDC58882C8FBDB082 /* XCShareManager-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XCShareManager";
 			sourceTree = "<group>";
 		};
-		4AEFF1E9DA686C8B828A138A2CBF8875 /* Products */ = {
+		3796A18C342DC57072BF7C4D00E602E8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8747CA88743709147ACFB7A5A38B861C /* Pods_XCShareManager_Example.framework */,
-				F255E4DAACC5F86F0382CB5D557C9EDB /* Pods_XCShareManager_Tests.framework */,
-				E0DD964CAA004854169AED4B6E268719 /* XCShareManager.bundle */,
-				0EC15B381419A5E462C1C19D886A510A /* XCShareManager.framework */,
+				8038AB1F94E2DCEB74A0D6B95506624E /* Frameworks */,
 			);
-			name = Products;
+			name = Network;
 			sourceTree = "<group>";
 		};
-		5AB5C8C20117572FEEDA3CC8480DEC4F /* Resources */ = {
+		382FE937C559441BC72F0CBD38DCC5EC /* ShareSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F70AA45F3C79DA2037E2922324706034 /* UMSocialSDKPromptResources.bundle */,
+				9B11ABD50AE804B654200E5DFFAA65F9 /* Frameworks */,
+				9B094DBEB36B034B0BA324D814A0F50C /* Resources */,
 			);
-			name = Resources;
+			name = ShareSDK;
 			sourceTree = "<group>";
 		};
-		5D451CED28D4C82F475C6A0A2710B096 /* ReducedWeChat */ = {
+		3E2A4085F32F449067DDE86F106EA65B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				875FC2614529A72CAF08BB0A432D3442 /* UMSocialWechatHandler.h */,
-				3DD69FB70B6EFB65162D37D94424A1B5 /* Frameworks */,
+				B0CF268B05ACBACDC7596311858142A6 /* libWeiboSDK.a */,
+				C8E6E43452B98FE6562C6B623BAF1FBB /* SinaWeiboConnector.framework */,
 			);
-			name = ReducedWeChat;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		687469D37F2AF85E4043418EC02AD62D /* XCShareManager */ = {
+		4E12DFEEDF841297AC30E1A20D5D29AC /* Pods-XCShareManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7A89337EA3C0DF9FB70C1BDE0E92F135 /* XCShareAppDeleagte.h */,
-				928A7572D942CE025BF2C91715C58171 /* XCShareAppDeleagte.m */,
-				5A6BAFC85BA00504C8BF4659936D01F1 /* XCShareManager.h */,
-				F09021C046DED4A6B6DE9ED96725706C /* XCShareManager.m */,
-				3F6F1D4C6F67676D15C31200CA38CD3B /* XCSharePlatformConfigure.h */,
-				5D61AD950C7B9AF5A3D4790493CD5B2E /* XCSharePlatformConfigure.m */,
-				BCB70EFFCF88F428EF4F5054E4C79EB1 /* Resources */,
-				407C52E4EB9B2BB7C556A71DB26CEF4A /* XCShareProtocol */,
-				BD07EE5B200C53A943CBDEF8600B0D09 /* XCShareUI */,
+				86563678345C3A25D9083C6BEE29246E /* Info.plist */,
+				706307F372E456DC7C9887BA5B0DDED2 /* Pods-XCShareManager_Tests.modulemap */,
+				CDF3E2F666DB30C5FAE912815F4D0407 /* Pods-XCShareManager_Tests-acknowledgements.markdown */,
+				B410F7CB683294DAA3889D3EFD171593 /* Pods-XCShareManager_Tests-acknowledgements.plist */,
+				531BB2BEC9087773E5465A7E773D5A34 /* Pods-XCShareManager_Tests-dummy.m */,
+				06E6499FCA00F9B130DDCA6096B1BF57 /* Pods-XCShareManager_Tests-frameworks.sh */,
+				DD248C15F7359115A6021F6880150A00 /* Pods-XCShareManager_Tests-resources.sh */,
+				C6473BD05D4350C6C0691AA596B60224 /* Pods-XCShareManager_Tests-umbrella.h */,
+				6BE0EAC211E88F5C0D324287E9AB587B /* Pods-XCShareManager_Tests.debug.xcconfig */,
+				72956A4E04C0CB0364E331700023680A /* Pods-XCShareManager_Tests.release.xcconfig */,
 			);
-			name = XCShareManager;
+			name = "Pods-XCShareManager_Tests";
+			path = "Target Support Files/Pods-XCShareManager_Tests";
+			sourceTree = "<group>";
+		};
+		5AB80F642D519ECBB2FC7C612FCAB478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53993BCFE3301641BAB84990D01D9B96 /* MOBFoundation.framework */,
+				F95D57FB0C2832955977237B47F54806 /* MOBFoundationEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6223855C2F9266C4E52BF0A30F9DEC74 /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				5AB80F642D519ECBB2FC7C612FCAB478 /* Frameworks */,
+			);
+			name = MOBFoundation;
+			path = MOBFoundation;
 			sourceTree = "<group>";
 		};
 		6BDD467C427FE1E1D36F01558712EAB7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9484F8D03508C0857BC5E060C315A29 /* Pods-XCShareManager_Example */,
-				91D049DE3DA4841DC581DE3DEC469C8D /* Pods-XCShareManager_Tests */,
+				99E99424FA08A42EFDCB31A92B7A3987 /* Pods-XCShareManager_Example */,
+				4E12DFEEDF841297AC30E1A20D5D29AC /* Pods-XCShareManager_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6F0876C32FCF113788DC40DD95FD4FC3 /* ReducedSina */ = {
+		70AD1B1699CF546756645D3596E5868C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1D203CCDF0084C394FD9F6908F61AD4 /* UMSocialSinaHandler.h */,
-				995B85EE4AB4C7B4827687E0E67BEB21 /* Frameworks */,
+				E7E61F7630B4A8B249823F999F7DEF14 /* libUMSocialLog.a */,
+				5E3C2C7BE3E6C4456490B533B5A63920 /* UMSocialCore.framework */,
 			);
-			name = ReducedSina;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7A1E1ED0D51F93EA0AFD59FE789E86C1 /* ReducedQQ */ = {
+		77DE62C1FE5C1329FCBD9E08F83776F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6BDECCE9AADB5BEF32EE429215704EA /* UMSocialQQHandler.h */,
-				E3EAC1A920330692B27CE35956BAA47E /* Frameworks */,
+				0A16ABDFB2F7702157157DCBBEDE1B5F /* mob_sharesdk */,
+				6223855C2F9266C4E52BF0A30F9DEC74 /* MOBFoundation */,
+				2652566D5B40E0657032D19A6E2C15A5 /* UMengUShare */,
 			);
-			name = ReducedQQ;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		7C5ACD78FF9733D5E521D1B07D5289C6 /* XCShareManager */ = {
+		7B9C5A80646CF1F58C52E72595B49BB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AE636F5F1571A39A20CAF793B7329AA /* Pod */,
-				41D28880C0FBC323A55F167258DA72E0 /* Support Files */,
-				E0F41BA2DD5A63728773401CBA21D30E /* UMengShare */,
-				687469D37F2AF85E4043418EC02AD62D /* XCShareManager */,
+				B09BD36BA475C6CDB16D0AD81417707A /* Pods_XCShareManager_Example.framework */,
+				FE9B8845E6D07414B1B333AA936DB8E6 /* Pods_XCShareManager_Tests.framework */,
+				0E5BB0E9844A165E328003D304B5C968 /* XCShareManager.bundle */,
+				67B37963FB99FEDED08CBE2FAC9656FC /* XCShareManager.framework */,
 			);
-			name = XCShareManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7CCC0EA2F8CDE43686A41A80D67781EA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C5ACD78FF9733D5E521D1B07D5289C6 /* XCShareManager */,
-			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7CCC0EA2F8CDE43686A41A80D67781EA /* Development Pods */,
+				ABFB3855C02B46EE0B96BBAAD52315A6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CAE7E5365298CA79852A23AED68BDD70 /* Pods */,
-				4AEFF1E9DA686C8B828A138A2CBF8875 /* Products */,
+				77DE62C1FE5C1329FCBD9E08F83776F5 /* Pods */,
+				7B9C5A80646CF1F58C52E72595B49BB2 /* Products */,
 				6BDD467C427FE1E1D36F01558712EAB7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E59DF122A7438E26BF0220E9DD1B121 /* Network */ = {
+		7EEC5203AC9C17738152C32AF6CD1FC9 /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
-				7F983E048F93DBD24804D37EE5977DBE /* Frameworks */,
+				4F6E33DC16C5CEE84F71C79F15E04640 /* WechatAuthSDK.h */,
+				CB751E76386B67995F988D1F558BB3F9 /* WXApi.h */,
+				F42C107D0D5011E32F159F7589E16122 /* WXApiObject.h */,
+				E66B262EAE3D8449783F43FD26FAE7AD /* Frameworks */,
 			);
-			name = Network;
+			name = WeChat;
 			sourceTree = "<group>";
 		};
-		7F983E048F93DBD24804D37EE5977DBE /* Frameworks */ = {
+		8038AB1F94E2DCEB74A0D6B95506624E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BC563799C5A9CEE3D54B70D180A96ED /* UMSocialNetwork.framework */,
+				62AEF799CD6270058CBFF37D85E5FECD /* UMSocialNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		91D049DE3DA4841DC581DE3DEC469C8D /* Pods-XCShareManager_Tests */ = {
+		825A16EB699D1F85C983E0E8505B884D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				21C24C6C52BF036F8A65684AB2254730 /* Info.plist */,
-				BAC3F0AAA0B51BF119803DF99F2EB839 /* Pods-XCShareManager_Tests.modulemap */,
-				86A78E67C25CC29096EBF4FE26F62694 /* Pods-XCShareManager_Tests-acknowledgements.markdown */,
-				381A37BA3C836661027DB7C6A027686E /* Pods-XCShareManager_Tests-acknowledgements.plist */,
-				C28D130775C7FAAB2E9FB29F002B1DF9 /* Pods-XCShareManager_Tests-dummy.m */,
-				93402CD74DFAE5F400D91066F5381C2F /* Pods-XCShareManager_Tests-frameworks.sh */,
-				983BDAC52BBD393C9003C2D3F880E2BA /* Pods-XCShareManager_Tests-resources.sh */,
-				9335BF30D1E3C9B5EA82AB86F2E0FA0D /* Pods-XCShareManager_Tests-umbrella.h */,
-				2F829209601BE6C598C6FA5142F2AD46 /* Pods-XCShareManager_Tests.debug.xcconfig */,
-				E091680D2F56C4DBF9F26A1F11A777B7 /* Pods-XCShareManager_Tests.release.xcconfig */,
+				D23FAEC70008451D86FC974B6A632513 /* UMSocialSDKPromptResources.bundle */,
 			);
-			name = "Pods-XCShareManager_Tests";
-			path = "Target Support Files/Pods-XCShareManager_Tests";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		995B85EE4AB4C7B4827687E0E67BEB21 /* Frameworks */ = {
+		8E9D83563D18DD790F6120C8914F87AA /* UMengShare */ = {
 			isa = PBXGroup;
 			children = (
-				7F7E5E594C1F6E122EC6322D88674B51 /* libSocialSina.a */,
+				B3E9EB63D672F2B7B24761BFBF60FB5E /* UMengShare.h */,
+				CB348128D7876FF2F595A9B76BD75D97 /* UMengShare.m */,
+				0A1787C76ECF876AEA86AC3911BEBDAB /* UMengShareFactory.h */,
+				23CD7A646A2E89774D1790E7012AC710 /* UMengShareFactory.m */,
+			);
+			name = UMengShare;
+			sourceTree = "<group>";
+		};
+		92F1BB05AA52B9BD135F9710A85773D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26D4222354CC3689EAE3B0B977EF107F /* icon_share_qq@2x.png */,
+				F452EC631CDA8B6B699BF11D7FF6F807 /* icon_share_qq@3x.png */,
+				1203643019C313D20B03DAF97001A335 /* icon_share_qq_zone@2x.png */,
+				BB534D364BE04746FA3BF7F0887B28A6 /* icon_share_qq_zone@3x.png */,
+				CD139C0789360525B6A9531DD99D1FC7 /* icon_share_weibo@2x.png */,
+				8E3CC7BD79150542F5727972C0640969 /* icon_share_weibo@3x.png */,
+				F8D81884948ED3B0BAAF7C0CED94D2AA /* icon_share_weixin@2x.png */,
+				2DE6B2CD2273F6638783422578F1A298 /* icon_share_weixin@3x.png */,
+				73694CC5C4B778C7BAD945B37289F2FF /* icon_share_weixin_zone@2x.png */,
+				5F967FC87986BD66D001D179F097A0DD /* icon_share_weixin_zone@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		975EF942D5AD65335DB8C0B41C5849BA /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				01F48DFACC5204D8B0A1C569935BDF8C /* UMSocialQQHandler.h */,
+				CF9BFE14677A6437706AE487F74D5CAA /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		99E99424FA08A42EFDCB31A92B7A3987 /* Pods-XCShareManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C785F313E4E873AD16A0A2E60B6E479B /* Info.plist */,
+				710D15B2E57A9AEB0BF50C93618788E1 /* Pods-XCShareManager_Example.modulemap */,
+				C04C3BB75BE4EFFE5B259944DA61FA7B /* Pods-XCShareManager_Example-acknowledgements.markdown */,
+				668200C70EC1A0A72F0BC2FB7098AFA9 /* Pods-XCShareManager_Example-acknowledgements.plist */,
+				640FFC15FC020981E9AF64A20937DBD0 /* Pods-XCShareManager_Example-dummy.m */,
+				B8E54A2C4BE230EEFF25DAC720A338F9 /* Pods-XCShareManager_Example-frameworks.sh */,
+				E08691C34695E300AC3E7DE7977950DC /* Pods-XCShareManager_Example-resources.sh */,
+				D882715114649657595AC4DA0FE99569 /* Pods-XCShareManager_Example-umbrella.h */,
+				6F84A369585313D5E0DECB1F173A12C1 /* Pods-XCShareManager_Example.debug.xcconfig */,
+				97A031EB78B871CFA16B5DE61985CB63 /* Pods-XCShareManager_Example.release.xcconfig */,
+			);
+			name = "Pods-XCShareManager_Example";
+			path = "Target Support Files/Pods-XCShareManager_Example";
+			sourceTree = "<group>";
+		};
+		9B094DBEB36B034B0BA324D814A0F50C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC43ECED1C287C072C449C47612E0C24 /* ShareSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B11ABD50AE804B654200E5DFFAA65F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DCB90BD287E9C6D5F815499BB7228 /* ShareSDK.framework */,
+				F023C69AE51D378D915782B4AAD03A2D /* ShareSDKConnector.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC82841D0635DA1304B50D2D5BB6AD7 /* XCShareUI */ = {
+			isa = PBXGroup;
+			children = (
+				71D670A70D77BB619488C5CF40CECEBC /* XCShareItem.h */,
+				C21BB49BCFE073E180B5640A483556D9 /* XCShareItem.m */,
+				FD7AA7721CF4B17940FD4FCF86C5F8FC /* XCShareItemModel.h */,
+				4B9FBFF5259B4179FE14EE7658DAE3F3 /* XCShareItemModel.m */,
+				41D254E69AC681C8F79255A9BACD9B8E /* XCShareUI.h */,
+				B8DCE611C9E5FF5935BC5B39F18D89A9 /* XCShareUI.m */,
+				46D72E4E33CB53BA73E6D602FA1F01B8 /* XCShareUtil.h */,
+				D3CA8E5621350C856DC73B54CD8AB2A1 /* XCShareView.h */,
+				7E16EEE90E604212D51870E9EFF64FC8 /* XCShareView.m */,
+			);
+			name = XCShareUI;
+			path = XCShareManager/Classes/XCShareManager/XCShareUI;
+			sourceTree = "<group>";
+		};
+		ABFB3855C02B46EE0B96BBAAD52315A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92B6576512F832521FDFA11141FA31F /* XCShareManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE1E67DFCD4E4AC8DA5C75D2F3172E53 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A5A72FFF19C541236E24464C238C9 /* Frameworks */,
+			);
+			name = QQ;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -409,64 +568,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BCB70EFFCF88F428EF4F5054E4C79EB1 /* Resources */ = {
+		C3E08D0E4FA79DC45E239B5D3FF024DA /* ShareSDKPlatforms */ = {
 			isa = PBXGroup;
 			children = (
-				F354E664C03E8AC9F23C13FF39D8A68F /* icon_share_qq@2x.png */,
-				6178B4B6C0F1AA8E85A8CAF1FAC575DC /* icon_share_qq@3x.png */,
-				C67F41BFD6B60B6B8B1353C7CFA292D1 /* icon_share_qq_zone@2x.png */,
-				43486ED3089FFA1F63D523A9F866496D /* icon_share_qq_zone@3x.png */,
-				4A9A5D20B11941C2378412386EE1C348 /* icon_share_weibo@2x.png */,
-				15057C77603D96E7D9CEB4828497B5E8 /* icon_share_weibo@3x.png */,
-				49F6C47ACA6D3DFCC106022F740C712F /* icon_share_weixin@2x.png */,
-				AF9ADBE53BC4DD88128F44801D315278 /* icon_share_weixin@3x.png */,
-				138F2979613E51A94878A419B348BDB1 /* icon_share_weixin_zone@2x.png */,
-				006D6625D000CFE5D675DD76303CCB55 /* icon_share_weixin_zone@3x.png */,
+				AE1E67DFCD4E4AC8DA5C75D2F3172E53 /* QQ */,
+				2687D2BE177403E6DE8B46198BD7B65E /* SinaWeibo */,
+				7EEC5203AC9C17738152C32AF6CD1FC9 /* WeChat */,
 			);
-			name = Resources;
+			name = ShareSDKPlatforms;
 			sourceTree = "<group>";
 		};
-		BD07EE5B200C53A943CBDEF8600B0D09 /* XCShareUI */ = {
+		CB2F56F7E3BE98056E17FE810EB4737A /* ReducedSina */ = {
 			isa = PBXGroup;
 			children = (
-				978D745933C7936F66E495A88D3E2F04 /* XCShareItem.h */,
-				1D7C17EEB678CDF197782336B981C2AA /* XCShareItem.m */,
-				D14699A33B63DA1CB9E6D7CE73980A16 /* XCShareItemModel.h */,
-				885EC5000540434C204D2B1AD22D2324 /* XCShareItemModel.m */,
-				95FF8673171A179795FEB390B12CA389 /* XCShareUI.h */,
-				88C555ECE72F7B7D81DB30DBF285CD32 /* XCShareUI.m */,
-				4E05A448F0545D05F971B54889903EC1 /* XCShareUtil.h */,
-				0866B8A3CCEE879CFFD907A00ECD80B6 /* XCShareView.h */,
-				5B6D5E43C865F09788FB757C67B5EA41 /* XCShareView.m */,
+				18AA159510ADD6D413A8C26E3015FE8B /* UMSocialSinaHandler.h */,
+				07FA3E3D284462DC97783455B1F787FD /* Frameworks */,
 			);
-			name = XCShareUI;
-			path = XCShareManager/Classes/XCShareManager/XCShareUI;
+			name = ReducedSina;
 			sourceTree = "<group>";
 		};
-		C9484F8D03508C0857BC5E060C315A29 /* Pods-XCShareManager_Example */ = {
+		CF0EEA7FDE46927BDBE69AA8C0A11D3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4164D8B8F12C444123C100346BF722A /* Info.plist */,
-				DF1673EEA678F509518B4FE3B2D1EAA3 /* Pods-XCShareManager_Example.modulemap */,
-				835FDFFB31C180B8AD195075A234AD02 /* Pods-XCShareManager_Example-acknowledgements.markdown */,
-				5CCD5250D378316BE8EC15BDB15B00DF /* Pods-XCShareManager_Example-acknowledgements.plist */,
-				451068F81270B8D438C4C2A8FAE5AF9F /* Pods-XCShareManager_Example-dummy.m */,
-				6A9B1832E4F3FCED9C871939D04F536E /* Pods-XCShareManager_Example-frameworks.sh */,
-				F76954AAD7D7CDDE21B85B5BBA99F171 /* Pods-XCShareManager_Example-resources.sh */,
-				66CB81F7ED54B12743F57FCDA45D31C5 /* Pods-XCShareManager_Example-umbrella.h */,
-				2C9C2DF1EC570FB965D34555A0B1DF64 /* Pods-XCShareManager_Example.debug.xcconfig */,
-				0F05AE45A61016906BDB8EF82F1E0E3C /* Pods-XCShareManager_Example.release.xcconfig */,
+				309E569E925C7CC6009F5518667735DC /* libSocialWeChat.a */,
 			);
-			name = "Pods-XCShareManager_Example";
-			path = "Target Support Files/Pods-XCShareManager_Example";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CAE7E5365298CA79852A23AED68BDD70 /* Pods */ = {
+		CF9BFE14677A6437706AE487F74D5CAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D587F8732FAEE22FF4053139D99164B /* UMengUShare */,
+				85148B2A1D5BA089E254F2A7CD21713F /* libSocialQQ.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -477,63 +611,106 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D946544AB81AAE85CF4BC19FC2CAD17A /* Frameworks */ = {
+		D373F464EFD66BD0BB90F57067DD525B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				022CE97F720ACE2FD94C4B4FEAF6BB43 /* libUMSocialLog.a */,
-				D4C4B70060EEBF3C5A043BF8D03BFCF7 /* UMSocialCore.framework */,
+				60C5DA6CE782C3D813DC224747FE7984 /* LICENSE */,
+				7BB0E314DDF3E605936BE7A51AEB06F4 /* README.md */,
+				06BEC515186D4C438EFEAA1A074262D4 /* XCShareManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DF5BD2D46F1EAF8D93BC38727A5E52B6 /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				53D94614F08526CAC8412B878D44B506 /* UMSocialWechatHandler.h */,
+				CF0EEA7FDE46927BDBE69AA8C0A11D3B /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		E193A05A2B22DFFF051431B088DDA426 /* MobShare */ = {
+			isa = PBXGroup;
+			children = (
+				000E5D8F4934E5BCD831D3FD4DB50B5D /* MobShare.h */,
+				1C92A83EA49FCC8DDD1934FDE2FB0AE5 /* MobShare.m */,
+				85853F39A31F86C783E4D87435524D8D /* MobShareFactory.h */,
+				3848A8861DD2E5A4A26A234B8EC13396 /* MobShareFactory.m */,
+			);
+			name = MobShare;
+			sourceTree = "<group>";
+		};
+		E66B262EAE3D8449783F43FD26FAE7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E83EB4642596A1A60D3B7417B6C5052 /* libWeChatSDK.a */,
+				1BCF4C85372922F9A6183E47E19DACA6 /* WechatConnector.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0F41BA2DD5A63728773401CBA21D30E /* UMengShare */ = {
+		EC0CC8DC137C7DE34532D79C8F4E0F2F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8C46070E51CE1D5329BDF48EC5D773C3 /* UMengShare.h */,
-				DE8DDF8718A5DED2DAFB0FCC891061B8 /* UMengShare.m */,
-				B975C628F0BF1DD238D0FF445DC8B585 /* UMengShareFactory.h */,
-				E487CAF3180C4B57D5D35E04316F260F /* UMengShareFactory.m */,
+				EE6B2CAD5A5C5749C2D2F269AE67AE81 /* WeiboSDK.bundle */,
 			);
-			name = UMengShare;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		E3EAC1A920330692B27CE35956BAA47E /* Frameworks */ = {
+		EE8A5A72FFF19C541236E24464C238C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				419B29418F102C9CC17C235125F4F359 /* libSocialQQ.a */,
+				89843BA2C37627CBCCDA3E7C769E925E /* QQConnector.framework */,
+				9F49DAE71CCDA22D88E5C26F91EA263D /* TencentOpenAPI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F92B6576512F832521FDFA11141FA31F /* XCShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				E193A05A2B22DFFF051431B088DDA426 /* MobShare */,
+				D373F464EFD66BD0BB90F57067DD525B /* Pod */,
+				36EF6B364D5D6955D63F541EACFF2927 /* Support Files */,
+				8E9D83563D18DD790F6120C8914F87AA /* UMengShare */,
+				023FAE7DE23C9009FDF77688D9C1E1F3 /* XCShareManager */,
+			);
+			name = XCShareManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3CA8DE39411163A4447B4BE765A6235F /* Headers */ = {
+		4A738CEA76CC035C006A46BD198C66A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D45BFF7F5C65FC207BAF8857330295 /* Pods-XCShareManager_Tests-umbrella.h in Headers */,
+				0D83364AB25CB993BC8C30882544A277 /* MobShare.h in Headers */,
+				00390C3983A87C98AD7A20807E335D82 /* MobShareFactory.h in Headers */,
+				B4961B2DBFC316789DCD37CE516D3ED8 /* UMengShare.h in Headers */,
+				2BBA863D26A7458FE14EB84D8E064556 /* UMengShareFactory.h in Headers */,
+				FD4F062CE6EF0EB17AF14D4A86D0D112 /* XCShareAppDeleagte.h in Headers */,
+				AB97E4DD96E46B41551115204ADD0D82 /* XCShareAppDeledateProtocol.h in Headers */,
+				0111ACFE8442F16C6D7E5DDC27F0242E /* XCShareFactoryProtocol.h in Headers */,
+				8B1303E4FB6331CC5A5C6AC97B9F3C12 /* XCShareItem.h in Headers */,
+				0BCCFF8C75205D8FDFE2AC9B2B9E4879 /* XCShareItemModel.h in Headers */,
+				FA0F7F0EF955D7771FC767E9E15C24B4 /* XCShareManager-umbrella.h in Headers */,
+				D6239B90D45FE86877DBE9AE682C28B5 /* XCShareManager.h in Headers */,
+				9B031DDE946AA37B44B01DE5E5D10EDC /* XCSharePlatformConfigure.h in Headers */,
+				CDFD3FBA5D97688D59EDF2A77EBD5840 /* XCShareProtocol.h in Headers */,
+				51B02AB289FDA4347954E59928EEEC84 /* XCShareUI.h in Headers */,
+				12807B8B95105AC8AF05665CE8299D32 /* XCShareUtil.h in Headers */,
+				6B9A9968ECAA7855CEA65E196F09FECC /* XCShareView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0516FF75F85979C6C1EE4E142175077 /* Headers */ = {
+		7F159948F40D2F77B3ECE2984E7C4B93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD271CDE90676DF0EFA9B89A5782C94D /* UMengShare.h in Headers */,
-				90D99C498B3DEBF95DE8A8E2237270EF /* UMengShareFactory.h in Headers */,
-				834173E731D102578E22527BD5B6D550 /* XCShareAppDeleagte.h in Headers */,
-				402DD118075CB3AEC1CB899651F6855D /* XCShareAppDeledateProtocol.h in Headers */,
-				4142CA173459D1B43B5F95BC63F2A1E1 /* XCShareFactoryProtocol.h in Headers */,
-				E7A260C8D44F22B8B970C2326D558C2E /* XCShareItem.h in Headers */,
-				7A3755E1AD760F7B3D6FF50F24FC1A8E /* XCShareItemModel.h in Headers */,
-				047F0D3C1A72B1F004E75D7A654B6857 /* XCShareManager-umbrella.h in Headers */,
-				485D1EABECC32964C0FC2C5EAF93106D /* XCShareManager.h in Headers */,
-				F39B5E71B1B813C498DB9A44566F6A73 /* XCSharePlatformConfigure.h in Headers */,
-				0E2A06524DA44D009509EE1F4C5FAE84 /* XCShareProtocol.h in Headers */,
-				231B016E59BD7A597F77A395AF1DDDFF /* XCShareUI.h in Headers */,
-				39AEFB463747D7AA11589646B630F63E /* XCShareUtil.h in Headers */,
-				3AF62A050A5514C77C987C18275A382F /* XCShareView.h in Headers */,
+				103C54FAA090A9DD82392A3B18D59171 /* Pods-XCShareManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,18 +739,17 @@
 			);
 			name = "XCShareManager-XCShareManager";
 			productName = "XCShareManager-XCShareManager";
-			productReference = E0DD964CAA004854169AED4B6E268719 /* XCShareManager.bundle */;
+			productReference = 0E5BB0E9844A165E328003D304B5C968 /* XCShareManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		1E45417D0C5C6EE5A17B0DE54E436B89 /* XCShareManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8321D0B41BBAD6DB754FB60E471D127 /* Build configuration list for PBXNativeTarget "XCShareManager" */;
 			buildPhases = (
-				07FC90EA1393446387458B558248C986 /* Sources */,
+				F97833B81CC3B0D8EBC38681F5735516 /* Sources */,
 				5D862507AA83F8C7C381D04FBAC729D2 /* Frameworks */,
 				BA000BB70CF256DF0A00EB63726D5AE7 /* Resources */,
-				C0516FF75F85979C6C1EE4E142175077 /* Headers */,
-				D3AFF0E991E904875A6BC7FCE0BC2418 /* Setup Static Framework */,
+				4A738CEA76CC035C006A46BD198C66A2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -582,8 +758,26 @@
 			);
 			name = XCShareManager;
 			productName = XCShareManager;
-			productReference = 0EC15B381419A5E462C1C19D886A510A /* XCShareManager.framework */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 67B37963FB99FEDED08CBE2FAC9656FC /* XCShareManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33868A5656C11F8B064FAC431E768647 /* Pods-XCShareManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B61DEDB9D3A1D94BA167384688D480 /* Build configuration list for PBXNativeTarget "Pods-XCShareManager_Tests" */;
+			buildPhases = (
+				B31D7245355C378A376077E4EBE4A9DA /* Sources */,
+				1CD65F9A455C8BA0849A769E7A397CF7 /* Frameworks */,
+				7F159948F40D2F77B3ECE2984E7C4B93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE48B0AE29D1F961FE613CDC226FE1D /* PBXTargetDependency */,
+			);
+			name = "Pods-XCShareManager_Tests";
+			productName = "Pods-XCShareManager_Tests";
+			productReference = FE9B8845E6D07414B1B333AA936DB8E6 /* Pods_XCShareManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		7B75B0100D8F5195918A0631EDAF5D69 /* Pods-XCShareManager_Example */ = {
 			isa = PBXNativeTarget;
@@ -600,24 +794,7 @@
 			);
 			name = "Pods-XCShareManager_Example";
 			productName = "Pods-XCShareManager_Example";
-			productReference = 8747CA88743709147ACFB7A5A38B861C /* Pods_XCShareManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C7174DFBF1A0AE059754F722C908532D /* Pods-XCShareManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AFC90F5DF12B2CEF12D31CD950E4C86F /* Build configuration list for PBXNativeTarget "Pods-XCShareManager_Tests" */;
-			buildPhases = (
-				ADD8F42A8498C9AC52BF1088A08D4551 /* Sources */,
-				01DEF02E36768D2161198740D47ADBD0 /* Frameworks */,
-				3CA8DE39411163A4447B4BE765A6235F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-XCShareManager_Tests";
-			productName = "Pods-XCShareManager_Tests";
-			productReference = F255E4DAACC5F86F0382CB5D557C9EDB /* Pods_XCShareManager_Tests.framework */;
+			productReference = B09BD36BA475C6CDB16D0AD81417707A /* Pods_XCShareManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -626,8 +803,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -637,12 +814,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4AEFF1E9DA686C8B828A138A2CBF8875 /* Products */;
+			productRefGroup = 7B9C5A80646CF1F58C52E72595B49BB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7B75B0100D8F5195918A0631EDAF5D69 /* Pods-XCShareManager_Example */,
-				C7174DFBF1A0AE059754F722C908532D /* Pods-XCShareManager_Tests */,
+				33868A5656C11F8B064FAC431E768647 /* Pods-XCShareManager_Tests */,
 				1E45417D0C5C6EE5A17B0DE54E436B89 /* XCShareManager */,
 				049354D8548FB1864190AA1AA432DCD2 /* XCShareManager-XCShareManager */,
 			);
@@ -677,42 +854,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D3AFF0E991E904875A6BC7FCE0BC2418 /* Setup Static Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Setup Static Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\n# The fat library archive is at a file symbolic link when archiving, so use -L option\nrsync -tL \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\nrsync -t \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\nrsync -tr \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
-			showEnvVarsInLog = 1;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		07FC90EA1393446387458B558248C986 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7DA139036C6C2564161D8C79EB86676 /* UMengShare.m in Sources */,
-				D6684179770F588BB401945DE2047226 /* UMengShareFactory.m in Sources */,
-				B1E93681C788F7A388E2BC26B17CEAE6 /* XCShareAppDeleagte.m in Sources */,
-				6F30F1783BEBB7357B07399BA104352E /* XCShareItem.m in Sources */,
-				F4A452A611E3173E36A45985C114B3C8 /* XCShareItemModel.m in Sources */,
-				9C158772F2E4FD942C2D9D3327F7EC67 /* XCShareManager-dummy.m in Sources */,
-				D8667A9BAF7D4ABE710C3CAF70232B1C /* XCShareManager.m in Sources */,
-				B7720988AC938C6D822045E5B1A53037 /* XCSharePlatformConfigure.m in Sources */,
-				5E0A02E4C734B4567C36141427F84FB5 /* XCShareUI.m in Sources */,
-				F42E3FBBC265951C548AFC486DE7FECA /* XCShareView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99C5C778C017CA4283FDC7FED50AEB13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -721,11 +863,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADD8F42A8498C9AC52BF1088A08D4551 /* Sources */ = {
+		B31D7245355C378A376077E4EBE4A9DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D001702C61BE1F3AE69CF448F8B87840 /* Pods-XCShareManager_Tests-dummy.m in Sources */,
+				FDC899703A5DCD9BB2460434061502F9 /* Pods-XCShareManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +875,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97833B81CC3B0D8EBC38681F5735516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3296675575E5BE3EAD6AEFBA271F3503 /* MobShare.m in Sources */,
+				F995198F8DF153B3C0ADEE86502AF2D4 /* MobShareFactory.m in Sources */,
+				433477994B34263D5A60CFA7F3076DF8 /* UMengShare.m in Sources */,
+				B078114BE9F928AA4133698FF8094709 /* UMengShareFactory.m in Sources */,
+				0475DCDAED188D1A229F9D2091524FC8 /* XCShareAppDeleagte.m in Sources */,
+				83133586CE3297FEBC2468D7F10C6E3A /* XCShareItem.m in Sources */,
+				29271E8B3272B1852F0A7FB4A99835F2 /* XCShareItemModel.m in Sources */,
+				3701D8D8B47EC08D4D28FF262AA281F6 /* XCShareManager-dummy.m in Sources */,
+				B59C0363FF4C4A76428A15DA71ABCBB7 /* XCShareManager.m in Sources */,
+				140108C29DFEECB1EDB4EF3E6354E65C /* XCSharePlatformConfigure.m in Sources */,
+				13109CC018314D897FB2D5209049414F /* XCShareUI.m in Sources */,
+				A48FA621DD71003B57E6C66C6703E760 /* XCShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +906,12 @@
 			target = 1E45417D0C5C6EE5A17B0DE54E436B89 /* XCShareManager */;
 			targetProxy = 27FAB6C8DCBD10A19153F5A17E0DF84A /* PBXContainerItemProxy */;
 		};
+		9FE48B0AE29D1F961FE613CDC226FE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XCShareManager_Example";
+			target = 7B75B0100D8F5195918A0631EDAF5D69 /* Pods-XCShareManager_Example */;
+			targetProxy = 52F7BE096FB9ADBD10C7AE14687F642A /* PBXContainerItemProxy */;
+		};
 		D507E474390B66DBEA3304370E57A0A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "XCShareManager-XCShareManager";
@@ -754,10 +921,75 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AA1DD3DBFBCB8C01385B64FB4401C04 /* Release */ = {
+		27DF9623D29366E605D3AF2124AE660E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E091680D2F56C4DBF9F26A1F11A777B7 /* Pods-XCShareManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCShareManager/XCShareManager-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XCShareManager/XCShareManager.modulemap";
+				PRODUCT_MODULE_NAME = XCShareManager;
+				PRODUCT_NAME = XCShareManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55BE012D0670CC83B79F0A755AF77695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F84A369585313D5E0DECB1F173A12C1 /* Pods-XCShareManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCShareManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCShareManager_Example/Pods-XCShareManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A64811FE455590BBA7BFCA0CCA7A242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72956A4E04C0CB0364E331700023680A /* Pods-XCShareManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -777,7 +1009,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XCShareManager_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -787,7 +1019,56 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		7888103BB11A0ED762FFC375AA8CC76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCShareManager";
+				INFOPLIST_FILE = "Target Support Files/XCShareManager/ResourceBundle-XCShareManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = XCShareManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		88E50300DC560E3735D7D53B6730B868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE0EAC211E88F5C0D324287E9AB587B /* Pods-XCShareManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCShareManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCShareManager_Tests/Pods-XCShareManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -797,10 +1078,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -808,6 +1091,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -816,6 +1100,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -840,17 +1125,17 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6551871D991EA7C976875FF7567F7B52 /* Release */ = {
+		9579F4715F68055C1E2C826622EED529 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F05AE45A61016906BDB8EF82F1E0E3C /* Pods-XCShareManager_Example.release.xcconfig */;
+			baseConfigurationReference = 97A031EB78B871CFA16B5DE61985CB63 /* Pods-XCShareManager_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -870,7 +1155,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XCShareManager_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -880,7 +1165,23 @@
 			};
 			name = Release;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B11978DF2016F7F1F10CD90E9C5C099E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCShareManager";
+				INFOPLIST_FILE = "Target Support Files/XCShareManager/ResourceBundle-XCShareManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = XCShareManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -890,10 +1191,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -901,6 +1204,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -909,6 +1213,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -929,31 +1234,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7888103BB11A0ED762FFC375AA8CC76E /* Debug */ = {
+		E7F40EA2D8AA2D368BEDF07AC9A90EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCShareManager";
-				INFOPLIST_FILE = "Target Support Files/XCShareManager/ResourceBundle-XCShareManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PRODUCT_NAME = XCShareManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9FA6DB9A0B1E1C903037D73D69A3B6BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C9C2DF1EC570FB965D34555A0B1DF64 /* Pods-XCShareManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 41D56B2BDC7156AB94B0746F37375419 /* XCShareManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -964,126 +1252,40 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCShareManager_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XCShareManager/XCShareManager-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCShareManager_Example/Pods-XCShareManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XCShareManager_Example;
+				MODULEMAP_FILE = "Target Support Files/XCShareManager/XCShareManager.modulemap";
+				PRODUCT_MODULE_NAME = XCShareManager;
+				PRODUCT_NAME = XCShareManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B11978DF2016F7F1F10CD90E9C5C099E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCShareManager";
-				INFOPLIST_FILE = "Target Support Files/XCShareManager/ResourceBundle-XCShareManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PRODUCT_NAME = XCShareManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BBABFADB9A9294CD85E34EFC1F23EEF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F829209601BE6C598C6FA5142F2AD46 /* Pods-XCShareManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCShareManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCShareManager_Tests/Pods-XCShareManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XCShareManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C684871A9F18B246A42C08F31A8178CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/XCShareManager/XCShareManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MODULEMAP_FILE = "Target Support Files/XCShareManager/XCShareManager.modulemap";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = XCShareManager.framework/PrivateHeaders;
-				PRODUCT_NAME = XCShareManager;
-				PUBLIC_HEADERS_FOLDER_PATH = XCShareManager.framework/Headers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CD96B9EF30489DD5DDC99E9AF4B7142A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B8BBE302904AC84A24848D85B5A418 /* XCShareManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/XCShareManager/XCShareManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MODULEMAP_FILE = "Target Support Files/XCShareManager/XCShareManager.modulemap";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = XCShareManager.framework/PrivateHeaders;
-				PRODUCT_NAME = XCShareManager;
-				PUBLIC_HEADERS_FOLDER_PATH = XCShareManager.framework/Headers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12B61DEDB9D3A1D94BA167384688D480 /* Build configuration list for PBXNativeTarget "Pods-XCShareManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E50300DC560E3735D7D53B6730B868 /* Debug */,
+				6A64811FE455590BBA7BFCA0CCA7A242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1091,8 +1293,8 @@
 		916E43F2D377174AF2376D79138C0E0A /* Build configuration list for PBXNativeTarget "Pods-XCShareManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA6DB9A0B1E1C903037D73D69A3B6BA /* Debug */,
-				6551871D991EA7C976875FF7567F7B52 /* Release */,
+				55BE012D0670CC83B79F0A755AF77695 /* Debug */,
+				9579F4715F68055C1E2C826622EED529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1106,20 +1308,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFC90F5DF12B2CEF12D31CD950E4C86F /* Build configuration list for PBXNativeTarget "Pods-XCShareManager_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBABFADB9A9294CD85E34EFC1F23EEF6 /* Debug */,
-				0AA1DD3DBFBCB8C01385B64FB4401C04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E8321D0B41BBAD6DB754FB60E471D127 /* Build configuration list for PBXNativeTarget "XCShareManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C684871A9F18B246A42C08F31A8178CD /* Debug */,
-				CD96B9EF30489DD5DDC99E9AF4B7142A /* Release */,
+				E7F40EA2D8AA2D368BEDF07AC9A90EAD /* Debug */,
+				27DF9623D29366E605D3AF2124AE660E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
