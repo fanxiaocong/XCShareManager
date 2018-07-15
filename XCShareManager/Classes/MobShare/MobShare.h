@@ -19,8 +19,7 @@
 /**
  *  初始化分享UI
  */
-- (instancetype)initWithShareUI:(XCShareUI *)shareUI
-                        appIcon:(UIImage *)appIcon;
+- (instancetype)initWithShareUI:(XCShareUI *)shareUI;
 
 /**
  *  点击分享平台 Item 的回调

@@ -18,30 +18,30 @@
 
 @required
 /**
- *  分享：标题 + URL
- */
-- (void)shareWithTitle:(NSString *)title URL:(NSString *)URL;
-
-/**
- *  分享：标题 + 文本 + URL
- */
-- (void)shareWithTitle:(NSString *)title
-                  desc:(NSString *)desc
-                   URL:(NSString *)URL;
-
-
-
-/**
- *  分享：文本 + URL + 回调
+ *  分享（标题+缩略图片+描述+链接地址）
  *
- *  @param URL          链接地址
- *  @param desc         文本
- *  @param URL          URL地址
- *  @param complete     完成的回调
+ *  @param title 标题
+ *  @param thumbImage 缩略图片(类型可以是 NSURL、UIImage、NSData)
+ *  @param desc 描述
+ *  @param URLString 分享链接地址
+ */
+- (void)sahreWithTitle:(NSString *)title
+            thumbImage:(id)thumbImage
+           description:(NSString *)desc
+             URLString:(NSString *)URLString;
+
+/**
+ *  分享（标题+缩略图片+描述+链接地址+完成的回调）
+ *
+ *  @param title 标题
+ *  @param thumbImage 缩略图片(类型可以是 NSURL、UIImage、NSData)
+ *  @param desc 描述
+ *  @param URLString 分享链接地址
+ *  @param complete 完成的回调
  */
 - (void)shareWithTitle:(NSString *)title
-                  desc:(NSString *)desc
-                   URL:(NSString *)URL
+            thumbImage:(id)thumbImage
+           description:(NSString *)desc
+             URLString:(NSString *)URLString
               complete:(void(^)(XCSharePlatformType platformType, BOOL isSuccess))complete;
-
 @end

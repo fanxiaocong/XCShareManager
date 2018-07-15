@@ -18,7 +18,6 @@
 {
     [XCShareManager configureShareType:XCShareTypeUMeng
                                 appKey:@""
-                               appIcon:NULL
                        activePlatforms:@[@(XCSharePlatformTypeQQ),
                                          @(XCSharePlatformTypeQQZone),
                                          @(XCSharePlatformTypeWechat),

@@ -20,27 +20,27 @@ PODS:
     - UMengUShare/Core
   - UMengUShare/Social/ReducedWeChat (6.4.6):
     - UMengUShare/Core
-  - XCShareManager (0.0.2):
-    - XCShareManager/MobShare (= 0.0.2)
-    - XCShareManager/UMengShare (= 0.0.2)
-    - XCShareManager/XCShareManager (= 0.0.2)
-  - XCShareManager/MobShare (0.0.2):
+  - XCShareManager (0.0.3):
+    - XCShareManager/MobShare (= 0.0.3)
+    - XCShareManager/UMengShare (= 0.0.3)
+    - XCShareManager/XCShareManager (= 0.0.3)
+  - XCShareManager/MobShare (0.0.3):
     - mob_sharesdk/ShareSDKPlatforms/QQ
     - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
     - mob_sharesdk/ShareSDKPlatforms/WeChat
     - XCShareManager/XCShareManager
-  - XCShareManager/UMengShare (0.0.2):
+  - XCShareManager/UMengShare (0.0.3):
     - UMengUShare/Social/ReducedQQ
     - UMengUShare/Social/ReducedSina
     - UMengUShare/Social/ReducedWeChat
     - XCShareManager/XCShareManager
-  - XCShareManager/XCShareManager (0.0.2)
+  - XCShareManager/XCShareManager (0.0.3)
 
 DEPENDENCIES:
   - XCShareManager (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - mob_sharesdk
     - MOBFoundation
     - UMengUShare
@@ -53,8 +53,8 @@ SPEC CHECKSUMS:
   mob_sharesdk: 91a81feb5a5552947b809ccae1e4806655cc842c
   MOBFoundation: 82b27b95c37d5a6d874d58efa6365b465c8afcbf
   UMengUShare: fdbbf86353976727af26a66e9a84314ecb59c816
-  XCShareManager: b428af9b73844674f23a47d3457998d094c74305
+  XCShareManager: ed348fed0749b3e1386397e3cf097232e6a3d6dd
 
 PODFILE CHECKSUM: 3658698405492fc411305f8daf3167e4a7d6bfdc
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

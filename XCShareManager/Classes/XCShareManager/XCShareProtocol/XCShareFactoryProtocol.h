@@ -25,7 +25,6 @@
  *  根据 AppKey 创建分享工厂实体
  */
 - (instancetype)initWithAppKey:(NSString *)appKey
-                       appIcon:(UIImage *)appIcon
             platformConfigures:(NSArray<XCSharePlatformConfigure *> *)configures;
 
 @end

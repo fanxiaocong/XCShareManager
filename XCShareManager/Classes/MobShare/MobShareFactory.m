@@ -33,7 +33,6 @@
  *  根据 AppKey 创建分享工厂实体
  */
 - (instancetype)initWithAppKey:(NSString *)appKey
-                       appIcon:(UIImage *)appIcon
             platformConfigures:(NSArray<XCSharePlatformConfigure *> *)configures
 {
     if (self = [super init])
@@ -41,7 +40,7 @@
         _appKey  = appKey;
         // 配置分享平台
         [self configurePlatformConfigures:configures];
-        _mobShare  = [[MobShare alloc] initWithShareUI:self.shareUI appIcon:appIcon];
+        _mobShare  = [[MobShare alloc] initWithShareUI:self.shareUI];
     }
     
     return self;

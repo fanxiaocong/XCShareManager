@@ -31,13 +31,11 @@ typedef NS_ENUM(NSInteger, XCShareType)
  *
  *  @param shareType        分享类型
  *  @param appKey           分享AppKey
- *  @param appIcon          appIcon
  *  @param activePlatforms  分享平台（@（XCSharePlatformTypeQQ）...）
  *  @param configure        配置
  */
 + (void)configureShareType:(XCShareType)shareType
                     appKey:(NSString *)appKey
-                   appIcon:(UIImage *)appIcon
            activePlatforms:(NSArray<NSNumber *> *)activePlatforms
          platformConfigure:(void(^)(XCSharePlatformConfigure *configure))configure;
 

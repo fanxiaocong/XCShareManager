@@ -17,14 +17,14 @@
 @interface MobShare ()<UIAlertViewDelegate>
 /// 分享UI
 @property (strong, nonatomic) XCShareUI *shareUI;
-// AppIcon
-@property (strong, nonatomic) UIImage *appIcon;
 // title
 @property (copy, nonatomic) NSString *title;
 // content
 @property (copy, nonatomic) NSString *desc;
 // URL
-@property (copy, nonatomic) NSString *URL;
+@property (copy, nonatomic) NSString *URLString;
+// 缩略图片
+@property (copy, nonatomic) NSString *thumbImage;
 // 分享完成的回调
 @property (copy, nonatomic) void(^complete)(XCSharePlatformType platformType, BOOL isSuccess);
 @end
@@ -39,12 +39,10 @@
  *  初始化分享UI
  */
 - (instancetype)initWithShareUI:(XCShareUI *)shareUI
-                        appIcon:(UIImage *)appIcon
 {
     if (self = [super init])
     {
         self.shareUI = shareUI;
-        self.appIcon = appIcon;
     }
     
     return self;
@@ -66,7 +64,7 @@
     //   -----  如果是新浪  ------
     if (platformType == XCSharePlatformTypeSina)
     {
-        content = [NSString stringWithFormat:@"%@%@", self.desc, self.URL];
+        content = [NSString stringWithFormat:@"%@%@", self.desc, self.URLString];
     }
     else
     {
@@ -112,7 +110,7 @@
     NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
     [shareParams SSDKSetupShareParamsByText:self.desc
                                      images:@[]
-                                        url:[NSURL URLWithString:self.URL]
+                                        url:[NSURL URLWithString:self.URLString]
                                       title:self.title
                                        type:SSDKContentTypeAuto];
     
@@ -210,45 +208,45 @@
 #pragma mark - 👀 XCShareProtocol 👀 💤
 
 /**
- *  分享：标题 + URL
- */
-- (void)shareWithTitle:(NSString *)title URL:(NSString *)URL
-{
-    [self shareWithTitle:title desc:NULL URL:URL];
-}
-
-/**
- *  分享：标题 + 文本 + URL
- */
-- (void)shareWithTitle:(NSString *)title
-                  desc:(NSString *)desc
-                   URL:(NSString *)URL
-{
-    [self shareWithTitle:title desc:desc URL:URL complete:NULL];
-}
-
-
-
-/**
- *  分享：文本 + URL + 回调
+ *  分享（标题+缩略图片+描述+链接地址）
  *
- *  @param URL          链接地址
- *  @param desc         文本
- *  @param URL          URL地址
- *  @param complete     完成的回调
+ *  @param title 标题
+ *  @param thumbImage 缩略图片(类型可以是 NSURL、UIImage、NSData)
+ *  @param desc 描述
+ *  @param URLString 分享链接地址
+ */
+- (void)sahreWithTitle:(NSString *)title
+            thumbImage:(id)thumbImage
+           description:(NSString *)desc
+             URLString:(NSString *)URLString
+{
+    [self shareWithTitle:title thumbImage:thumbImage description:desc URLString:URLString complete:nil];
+}
+
+/**
+ *  分享（标题+缩略图片+描述+链接地址+完成的回调）
+ *
+ *  @param title 标题
+ *  @param thumbImage 缩略图片(类型可以是 NSURL、UIImage、NSData)
+ *  @param desc 描述
+ *  @param URLString 分享链接地址
+ *  @param complete 完成的回调
  */
 - (void)shareWithTitle:(NSString *)title
-                  desc:(NSString *)desc
-                   URL:(NSString *)URL
+            thumbImage:(id)thumbImage
+           description:(NSString *)desc
+             URLString:(NSString *)URLString
               complete:(void(^)(XCSharePlatformType platformType, BOOL isSuccess))complete
 {
     self.title = title ?: [NSBundle mainBundle].infoDictionary[@"CFBundleDisplayName"];
     self.desc  = desc;
-    self.URL   = URL;
-    self.complete = complete;
+    self.thumbImage = thumbImage;
+    self.URLString  = URLString;
+    self.complete   = complete;
     
     [self.shareUI show];
 }
+
 
 
 @end

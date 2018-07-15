@@ -16,7 +16,6 @@
 @property (copy, nonatomic) NSString *appKey;
 /** 👀 分享类型 👀 */
 @property (assign, nonatomic) XCShareType shareType;
-@property (strong, nonatomic) UIImage *appIcon;
 
 @end
 
@@ -28,13 +27,11 @@
  *
  *  @param shareType        分享类型
  *  @param appKey           分享AppKey
- *  @param appIcon          appIcon
  *  @param activePlatforms  分享平台（@（XCSharePlatformTypeQQ）...）
  *  @param configure        配置
  */
 + (void)configureShareType:(XCShareType)shareType
                     appKey:(NSString *)appKey
-                   appIcon:(UIImage *)appIcon
            activePlatforms:(NSArray<NSNumber *> *)activePlatforms
          platformConfigure:(void(^)(XCSharePlatformConfigure *configure))configure
 {
@@ -42,7 +39,6 @@
     
     mgr.shareType = shareType;
     mgr.appKey    = appKey;
-    mgr.appIcon   = appIcon;
     
     NSMutableArray *mArr = [NSMutableArray array];
     [activePlatforms enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -84,7 +80,7 @@ static id _instance = nil;
             case XCShareTypeUMeng:
             {
                 Class shareFactoryClass = NSClassFromString(@"UMengShareFactory");
-                _shareFactory = [[shareFactoryClass alloc] initWithAppKey:self.appKey appIcon:self.appIcon platformConfigures:self.configures];
+                _shareFactory = [[shareFactoryClass alloc] initWithAppKey:self.appKey platformConfigures:self.configures];
                 break;
             }
             case XCShareTypeShareSDK:

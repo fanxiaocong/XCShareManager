@@ -28,7 +28,7 @@
     id<XCShareFactoryProtocol> shareFactory = [XCShareManager shareManager].shareFactory;
     id<XCShareProtocol> share = shareFactory.share;
 
-    [share shareWithTitle:@"" URL:@""];
+    [share sahreWithTitle:@"" thumbImage:nil description:@"" URLString:@""];
 }
 
 

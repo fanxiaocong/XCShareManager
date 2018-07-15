@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCShareManager'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   
   s.summary          = <<-DESC
   封装分享功能，关于白名单和URLschemes请自行配置。
